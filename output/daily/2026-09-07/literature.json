@@ -30,6 +30,16 @@
     "pdf_url": ""
   },
   {
+    "title": "A generalizable deep learning framework for structure-based protein-ligand affinity ranking.",
+    "year": "2025",
+    "authors": "Brown BP",
+    "doi": "",
+    "pmid": "41100673",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41100673/",
+    "pdf_url": ""
+  },
+  {
     "title": "AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution.",
     "year": "2024",
     "authors": "Schade AE, Perurena N, Yang Y, Rodriguez CL, Krishnan A, Gardner A, Loi P, Xu Y",
@@ -37,16 +47,6 @@
     "pmid": "39385030",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39385030/",
-    "pdf_url": ""
-  },
-  {
-    "title": "A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery: From Reproducibility to Clinical Translation.",
-    "year": "2026",
-    "authors": "Niazi SK",
-    "doi": "",
-    "pmid": "42196328",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42196328/",
     "pdf_url": ""
   },
   {
@@ -87,16 +87,6 @@
     "pmid": "40915561",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40915561/",
-    "pdf_url": ""
-  },
-  {
-    "title": "The rise of deep learning and transformations in bioactivity prediction power of molecular modeling tools.",
-    "year": "2021",
-    "authors": "Bule M, Jalalimanesh N, Bayrami Z, Baeeri M, Abdollahi M",
-    "doi": "",
-    "pmid": "34532977",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34532977/",
     "pdf_url": ""
   },
   {
@@ -197,6 +187,16 @@
     "pmid": "39467131",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39467131/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Computational modelling of olfactory receptors.",
+    "year": "2025",
+    "authors": "Odoemelam CS, Steuber V, Schmuker M",
+    "doi": "",
+    "pmid": "40441539",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40441539/",
     "pdf_url": ""
   },
   {

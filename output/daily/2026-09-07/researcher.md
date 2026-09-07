@@ -1,114 +1,353 @@
-## Relevance-ranked evidence table
+# Evidence overview: AI and machine learning for protein function prediction
 
-**Assessment basis:** bibliographic metadata and titles supplied by the user. Findings, datasets, metrics, and limitations are **not assumed unless visible from the record**. Full-text verification is therefore required for detailed evidence extraction.
+## Scope and overall assessment
 
-| Rank | Record | Relevance to protein-function prediction | Methods or role indicated by the record | Dataset / evaluation evidence available from record | Full-text verification |
-|---:|---|---|---|---|---|
-| **1** | **Structure-based protein function prediction using graph convolutional networks** (Gligorijević et al., 2021; DOI: 10.1038/s41467-021-23303-9) | **Direct, primary evidence** | Graph convolutional networks using protein structural information to predict function | Dataset identity, function ontology, train/test splitting, class imbalance handling, and metrics are not given in the record | **Highest priority. Local PDF available.** |
-| **2** | **Machine Learning Approaches for Metalloproteins** (Yu et al., 2022; PMID: 35209064) | **Direct or near-direct review evidence** | Machine learning applied to metalloproteins; likely relevant to functional or biochemical property prediction, but scope cannot be confirmed from title alone | No datasets or metrics identifiable from metadata | **High priority.** PubMed record only; obtain full text. |
-| **3** | **A guide to machine learning for biologists** (Greener et al., 2021; DOI: 10.1038/s41580-021-00407-0) | **High methodological relevance** | General guidance on supervised/unsupervised learning, model development, validation, and interpretation in biology | Likely useful for evaluation and workflow principles, but protein-function-specific datasets/metrics are not established from the record | **High priority for methodological context. Local PDF available.** |
-| **4** | **Hierarchical graph learning for protein-protein interaction** (Gao et al., 2023; PMID: 36841846) | **Strong adjacent evidence** | Hierarchical graph learning for predicting protein–protein interactions, a functional relationship between proteins | Dataset construction, negative examples, protein-similarity leakage, and metrics are unknown | **High priority**, especially if “function” includes interaction-based annotation. |
-| **5** | **Machine Learning Methods in Protein-Protein Docking** (Michalik & Kuder, 2024; PMID: 38987466) | **Strong adjacent review evidence** | ML methods for structural docking and interaction modeling; relevant to inferring molecular function through binding partners | No specific datasets or metrics available from metadata | **High priority** for interaction/function boundaries. |
-| **6** | **AI-Driven Deep Learning Techniques in Protein Structure Prediction** (Chen et al., 2024; PMID: 39125995) | **Indirect but important supporting evidence** | Deep learning for protein structure prediction; structures can provide inputs for downstream function prediction | No datasets or metrics available from metadata | **Medium–high priority.** Verify whether function prediction is discussed or only structure prediction. |
-| **7** | **AI-Based Protein Structure Prediction in Drug Discovery: Impacts and Challenges** (Schauperl & Denny, 2022; PMID: 35727311) | **Indirect supporting review** | AI-based structural prediction and its use in drug discovery | No dataset or metric information available from record | **Medium priority** for limitations, but not a core function-prediction source. |
-| **8** | **Highly accurate protein structure prediction with AlphaFold** (Jumper et al., 2021; DOI: 10.1038/s41586-021-03819-2) | **Important enabling evidence, not direct function prediction** | Deep-learning protein structure prediction; structural representations may support function annotation | The record does not provide function-prediction datasets or metrics | **Medium priority. Local PDF available.** Use only for structural-model context. |
-| **9** | **AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences** (Varadi et al., 2023; DOI: 10.1093/nar/gkad1011) | **Supporting dataset/resource evidence** | Large-scale predicted structural resource that may be used as input for structure-based function prediction | The title identifies scale—over 214 million sequences—but not a function-prediction benchmark or evaluation metric | **Medium priority.** Full text needed to establish coverage, confidence filtering, and appropriate use. |
-| **10** | **Sequence-based virtual screening using transformers** (Zhang et al., 2025; PMID: 40721411) | **Adjacent sequence-model evidence** | Transformer models applied to protein sequences for virtual screening; may predict ligand-related properties rather than general protein function | Dataset type, labels, split strategy, and metrics unknown | **Medium priority**, only if ligand binding or biochemical activity is included in the review scope. |
-| **11** | **Rapid directed evolution guided by protein language models and epistatic interactions** (Tran et al., 2026; PMID: 41712694) | **Adjacent protein-property prediction evidence** | Protein language models and epistatic modeling used to guide variant selection/evolution | The record does not establish that canonical protein functions were predicted; datasets and metrics unavailable | **Medium priority** if the review includes activity or variant-effect prediction. |
-| **12** | **Robust deep learning–based protein sequence design using ProteinMPNN** (Dauparas et al., 2022; DOI: 10.1126/science.add2187) | **Adjacent, mainly protein design** | Deep learning for sequence design rather than direct functional annotation | No function-prediction datasets or metrics identifiable from metadata | **Lower priority.** Verify only if sequence design/function coupling is in scope. |
-| **13** | **Accurate structure prediction of biomolecular interactions with AlphaFold 3** (Abramson et al., 2024; DOI: 10.1038/s41586-024-07487-w) | **Adjacent structural/interaction evidence** | Prediction of biomolecular interaction structures; potentially relevant to binding-function inference | No function-prediction datasets or metrics available from metadata | **Lower–medium priority.** Full text needed to determine relevance to functional annotation. |
-| **14** | **The rise of deep learning and transformations in bioactivity prediction power of molecular modeling tools** (Bule et al., 2021; PMID: 34532977) | **Adjacent review evidence** | Deep learning for bioactivity prediction, which overlaps with prediction of protein–ligand activity but not necessarily protein function annotation | No specific dataset or metric information in record | **Medium priority** if bioactivity is included. |
-| **15** | **Leakage and the reproducibility crisis in machine-learning-based science** (Kapoor & Narayanan, 2023; DOI: 10.1016/j.patter.2023.100804) | **Important cross-cutting limitations evidence** | Addresses data leakage and reproducibility in ML research | Protein-specific datasets/metrics not indicated | **High priority for limitations.** Full text required; PDF access was blocked in the supplied record. |
-| **16** | **Practical guide to SHAP analysis: Explaining supervised machine learning model predictions in drug development** (Ponce Bobadilla et al., 2024; DOI: 10.1111/cts.70056) | **Methodological support** | Model explainability and feature attribution using SHAP | No protein-function datasets or metrics indicated | **Medium priority** if interpretability is a review objective; supplied PDF access failed. |
-| **17** | **Informed Machine Learning—A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems** (von Rueden et al., 2021; DOI: 10.1109/TKDE.2021.3079836) | **General methodological support** | Incorporating prior knowledge into ML, potentially relevant to biological constraints and ontologies | No protein-specific evidence visible from metadata | **Lower priority**, unless discussing knowledge-guided protein-function prediction. |
-| **18** | **Ensemble deep learning: A review** (Ganaie et al., 2022; DOI: 10.1016/j.engappai.2022.105151) | **General methodological support** | Ensemble deep-learning methods | No protein-specific datasets or metrics in record | **Low priority.** |
-| **19** | **Review of deep learning: concepts, CNN architectures, challenges, applications, future directions** (Alzubaidi et al., 2021; DOI: 10.1186/s40537-021-00444-8) | **General background** | Deep-learning architectures and challenges | No protein-function-specific evidence from metadata | **Low priority. Local PDF available.** |
+The supplied records contain **one directly focused study**, several **closely related reviews or methodological papers**, and many records that concern adjacent applications rather than protein-function prediction itself. On the information provided, the literature supports a broad view in which machine learning is used to infer protein function from:
 
-## Records likely outside the review scope
+- **sequence-derived representations**, including protein language-model embeddings;
+- **three-dimensional structural representations**, including graph-based descriptions of residues, atoms, or contacts;
+- **protein–protein interaction networks**;
+- **protein–ligand or binding-related features**; and
+- **integrated biological or omics data**.
 
-These records concern clinical prediction, cancer biomarkers, drug efficacy, molecular drug discovery, or unrelated applications rather than predicting the function of proteins:
+However, the supplied bibliographic records do not provide enough information to establish which datasets, baselines, metrics, or limitations were used in most studies. These details require full-text verification.
 
-- *Machine learning-based reproducible prediction of type 2 diabetes subtypes*
-- *AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution*
-- *A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery*
-- *Dynamic Prediction of Non-Neutral SARS-CoV-2 Variants Using Incremental Machine Learning*
-- *LCN2 drives ferroptosis-associated ischemia-reperfusion injury...*
-- *Discovery of natural RORγt inhibitor using machine learning...*
-- *Deciphering the mechanism of baicalein in cervical cancer...*
-- *Machine Learning Prediction of 90-Day Mortality in HBV-Related ACLF...*
-- *Combining Molecular Dynamics and Machine Learning to Predict Drug Resistance Causing Variants of BRAF...*
-- *Artificial intelligence guided discovery of a barrier-protective therapy...*
-- *Machine learning driven prediction of drug efficacy in lung cancer...*
-- *Virtual patient analysis identifies strategies to improve... PD-1 blockade*
-- *Swarm Learning for decentralized and confidential clinical machine learning*
-- *Using machine learning approaches for multi-omics data analysis: A review*
-- *Machine Learning in Agriculture*
-- *Generative AI*
-- *Small data machine learning in materials science*
-- *The Role of AI, Machine Learning, and Big Data in Digital Twinning*
-- *Prediction of Chronic Kidney Disease*
-- *A review on extreme learning machine*
+---
 
-Some excluded records may still provide generic information about validation, explainability, or small-data problems, but they should not be treated as evidence about protein-function prediction itself.
+## Relevance-ranked evidence
 
-## Evidence currently supported by the records
+### Tier 1: Direct evidence on protein-function prediction
 
-### How ML methods are being used
+#### 1. Structure-based protein function prediction using graph convolutional networks  
+**Gligorijević et al., 2021.** *Nature Communications.*  
+DOI: 10.1038/s41467-021-23303-9
 
-The records indicate several broad approaches, but only one record is explicitly titled as protein-function prediction:
+This is the most directly relevant record. Its title indicates a method that represents proteins structurally and applies **graph convolutional networks (GCNs)** to predict protein function. A likely conceptual workflow is:
 
-1. **Structure-based prediction:**  
-   Graph convolutional networks are explicitly used for protein-function prediction in Gligorijević et al. Structural prediction systems such as AlphaFold are relevant as enabling resources, but structure prediction should not be conflated with function prediction.
+1. represent a protein structure as a graph;
+2. encode residue- or atom-level features and spatial relationships;
+3. propagate information through graph-convolutional layers; and
+4. predict one or more functional annotations.
 
-2. **Sequence-based modeling:**  
-   Transformers and protein language models are represented by the sequence-based virtual-screening and directed-evolution records. Their exact targets—function labels, binding, activity, or variant effects—must be verified in full text.
+The relevant functional labels may include ontology-based annotations, but this must not be assumed from the title alone. The record should be checked for:
 
-3. **Interaction-based inference:**  
-   Graph learning for protein–protein interaction and ML for protein docking may support functional inference through predicted interaction relationships.
+- the exact functional prediction task;
+- the source and composition of the protein structures;
+- the annotation ontology and label hierarchy;
+- whether experimentally solved structures, predicted structures, or both were used;
+- train/test splitting, especially sequence- or structure-similarity separation;
+- class imbalance handling;
+- comparison with sequence-based methods; and
+- evaluation metrics such as precision, recall, F1, ROC-AUC, precision–recall AUC, or ontology-specific measures.
 
-4. **Domain- or chemistry-specific prediction:**  
-   The metalloprotein review may cover prediction of metal-binding, catalytic, structural, or other metalloprotein properties, but the precise task needs verification.
+**Full-text status:** **Priority full-text verification required.** A PDF is listed locally, but the bibliographic record alone does not establish the study’s detailed findings.
 
-5. **Interpretability and validation:**  
-   SHAP, informed ML, and the leakage/reproducibility paper are relevant to explaining predictions and assessing whether reported performance is reliable.
+---
 
-### Datasets and evaluation metrics
+### Tier 2: Reviews and methodological sources directly informing the field
 
-**The supplied bibliographic records do not provide enough information to identify the datasets or metrics used.** Full-text extraction should specifically look for:
+#### 2. Machine Learning Approaches for Metalloproteins  
+**Yu, Wang and Teo, 2022.** *PubMed record, PMID 35209064.*
 
-- Protein sequence databases and annotation sources, such as UniProt, Gene Ontology, Pfam, PDB, or specialized metalloprotein/interaction databases.
-- Structural sources, including experimentally determined structures versus predicted structures.
-- Protein–protein interaction databases and definitions of positive and negative interactions.
-- Dataset size, label hierarchy, class imbalance, and annotation quality.
-- Random versus sequence-, structure-, family-, or species-level splits.
-- Independent or temporal test sets.
-- Leakage controls, particularly homologous proteins appearing across training and test sets.
-- Metrics such as accuracy, precision, recall, F1 score, ROC-AUC, PR-AUC, Matthews correlation coefficient, top-\(k\) accuracy, coverage, calibration, and ontology-aware measures such as semantic similarity.
+This review is relevant because metalloprotein function is strongly linked to metal binding, coordination geometry, catalytic activity, and structural context. It may cover machine-learning approaches for predicting properties such as:
 
-### Limitations suggested by the evidence set
+- metal-binding sites;
+- metal-ion specificity;
+- coordination environments;
+- catalytic or functional classes; and
+- possibly metalloprotein structures or interactions.
 
-These should be treated as **issues to verify**, not established findings from the supplied metadata:
+The title does not establish which of these tasks are covered. It is especially useful for identifying domain-specific datasets, feature representations, and evaluation practices.
 
-- **Data leakage and inflated performance**, directly flagged by the Kapoor and Narayanan record.
-- **Dependence on structural-model quality**, relevant when predicted structures are used for function inference.
-- **Limited or biased functional annotations**, likely important for protein-function benchmarks but not documented in the supplied records.
-- **Class imbalance and incomplete negative examples**, especially for interaction and functional-label prediction.
-- **Homology and distribution-shift problems**, where near-identical proteins occur across training and test sets or where models are applied to novel protein families.
-- **Interpretability and biological validation**, motivating the SHAP and informed-ML records.
-- **Reproducibility**, including unclear preprocessing, unavailable code or datasets, and inconsistent benchmark splits.
+**Full-text status:** **Required.** The supplied record contains no full text.
 
-## Priority full-text verification set
+#### 3. AI-Driven Deep Learning Techniques in Protein Structure Prediction  
+**Chen et al., 2024.** *PubMed record, PMID 39125995.*
 
-For answering the stated question efficiently, verify these first:
+This appears to be a review of deep learning for **structure prediction**, rather than function prediction. It is relevant indirectly because structural predictions can provide inputs for structure-based function inference, especially for proteins lacking experimentally determined structures. It may discuss:
 
-1. Gligorijević et al. — direct structure-based function prediction.
-2. Yu et al. — ML for metalloproteins.
-3. Gao et al. — graph learning for protein–protein interactions.
-4. Michalik & Kuder — ML for protein–protein docking.
-5. Greener et al. — ML methodology for biologists.
-6. Kapoor & Narayanan — leakage and reproducibility.
-7. Chen et al. — deep learning for protein structures.
-8. Jumper et al. and Varadi et al. — structural inputs and database coverage.
-9. Zhang et al. and Tran et al. — sequence transformers and protein language models, if activity or variant-function prediction is included.
+- deep-learning architectures;
+- sequence-to-structure prediction;
+- structural accuracy assessment; and
+- challenges in using predicted structures downstream.
 
-**Bottom line:** the strongest directly relevant record is the graph-convolutional-network study on structure-based protein-function prediction. The remaining useful records mainly address enabling representations—sequences, structures, and interactions—or methodological concerns. The supplied metadata are insufficient to report specific benchmark datasets, numerical performance, or validated limitations; those require full-text verification.
+It should not be treated as direct evidence that a model predicts molecular or cellular function.
+
+**Full-text status:** **Required.**
+
+#### 4. AI-Based Protein Structure Prediction in Drug Discovery: Impacts and Challenges  
+**Schauperl and Denny, 2022.** *PubMed record, PMID 35727311.*
+
+This is also adjacent rather than directly focused on function prediction. It may help establish how predicted structures are used in functional interpretation, binding analysis, or drug discovery, but the title does not indicate direct functional-label prediction.
+
+**Full-text status:** **Required.**
+
+#### 5. Highly accurate protein structure prediction with AlphaFold  
+**Jumper et al., 2021.** *Nature.*
+
+This is foundational for the use of predicted protein structures as inputs to downstream functional analysis. It is not itself a protein-function prediction study. Its importance is methodological: structural models can enable function inference for proteins without experimentally determined structures.
+
+The relevant issues for this question are therefore indirect:
+
+- how structural accuracy varies across proteins and regions;
+- whether predicted structures are suitable for active-site or interaction inference; and
+- how uncertainty in structure prediction propagates into function prediction.
+
+**Full-text status:** **Available locally, but full-text verification is still required for any detailed claim.**
+
+#### 6. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences  
+**Váradi et al., 2023.** *Nucleic Acids Research.*
+
+This record is relevant as a potential **resource or dataset source** for structure-based function prediction. It indicates very broad structure coverage, but the supplied metadata do not show whether the article evaluates functional prediction models. Full text is needed to verify:
+
+- database contents and confidence measures;
+- sequence and taxonomic coverage;
+- update procedures;
+- redundancy or homology issues; and
+- appropriate uses and limitations for downstream machine learning.
+
+**Full-text status:** **Required; the listed PDF download returned a 403 error.**
+
+---
+
+### Tier 3: Closely related protein-machine-learning applications
+
+#### 7. Hierarchical graph learning for protein–protein interaction  
+**Gao et al., 2023.** *PubMed record, PMID 36841846.*
+
+Protein–protein interaction prediction is not identical to general protein-function prediction, but it is a closely related functional task. Graph learning may operate at several levels, potentially including residues, domains, proteins, or interaction networks. This record may inform:
+
+- graph representations of protein relationships;
+- hierarchical neural architectures;
+- interaction datasets and negative sampling; and
+- evaluation of binary or multi-label interaction predictions.
+
+It should be included as supporting evidence rather than direct evidence unless the full text shows explicit functional annotation prediction.
+
+**Full-text status:** **Required.**
+
+#### 8. Sequence-based virtual screening using transformers  
+**Zhang et al., 2025.** *PubMed record, PMID 40721411.*
+
+This concerns transformer models and protein sequence information, but its stated application is **virtual screening**, not protein-function annotation. It may be informative about protein language models, sequence embeddings, and generalization across proteins, but it should not be used as direct evidence for function prediction without confirmation.
+
+**Full-text status:** **Required.**
+
+#### 9. Rapid directed evolution guided by protein language models and epistatic interactions  
+**Tran et al., 2026.** *PubMed record, PMID 41712694.*
+
+This appears to use protein language models to guide sequence optimization and account for epistatic interactions. The predicted target is likely an experimentally relevant protein property, but the title does not establish that the property is molecular function. It is relevant to the broader use of learned sequence representations and to the limitation that sequence-function relationships are affected by context and epistasis.
+
+**Full-text status:** **Required.**
+
+#### 10. Robust deep learning–based protein sequence design using ProteinMPNN  
+**Dauparas et al., 2022.** *Science.*
+
+This is primarily a **protein design** paper rather than a function-prediction paper. It may be useful for understanding inverse problems—designing sequences compatible with structural constraints—but should not be counted as evidence that machine learning predicts protein function.
+
+**Full-text status:** **Required.**
+
+#### 11. A generalizable deep learning framework for structure-based protein–ligand affinity ranking  
+**Brown, 2025.** *PubMed record, PMID 41100673.*
+
+Ligand-affinity prediction is a specific biochemical property and may be relevant to molecular function, binding specificity, and annotation. Nevertheless, it is narrower than general protein-function prediction. It may provide useful evidence on structure-based representations, generalization, and ranking metrics.
+
+**Full-text status:** **Required.**
+
+#### 12. Machine Learning Methods in Protein–Protein Docking  
+**Michalik and Kuder, 2024.** *PubMed record, PMID 38987466.*
+
+This review is relevant to structural interaction prediction and therefore to one component of protein function. It is not necessarily about functional annotation. Full text is needed to determine whether it discusses datasets, benchmarks, and metrics that transfer to function prediction.
+
+**Full-text status:** **Required.**
+
+#### 13. Computational modelling of olfactory receptors  
+**Odoemelam, Steuber and Schmuker, 2025.** *PubMed record, PMID 40441539.*
+
+This may include machine-learning-based structure or function modelling for a particular receptor family. The title alone does not indicate the methods or whether prediction was validated experimentally. It is a possible domain-specific example, but not currently strong evidence for the general question.
+
+**Full-text status:** **Required.**
+
+---
+
+### Tier 4: General machine-learning, interpretability, and methodological context
+
+#### 14. A guide to machine learning for biologists  
+**Greener et al., 2021.** *Nature Reviews Molecular Cell Biology.*
+
+Useful for general principles relevant to protein-function modelling, including feature construction, model selection, validation, and interpretation. It is not protein-function-specific and should support methodological discussion rather than serve as primary evidence.
+
+**Full-text status:** **Available locally; verify before extracting specific recommendations.**
+
+#### 15. Leakage and the reproducibility crisis in machine-learning-based science  
+**Kapoor and Narayanan, 2023.** *Patterns.*
+
+This is highly relevant to limitations. It may inform concerns about:
+
+- information leakage between training and test sets;
+- non-independent biological samples;
+- overly optimistic benchmark results;
+- inadequate external validation; and
+- reproducibility of computational studies.
+
+These concerns are especially important for protein datasets, where homologous sequences or related structures can occur across data partitions. The record is not protein-specific, so its implications need to be applied carefully.
+
+**Full-text status:** **Required; the listed PDF returned a 403 error.**
+
+#### 16. Practical guide to SHAP analysis  
+**Ponce Bobadilla et al., 2024.**
+
+Potentially relevant to interpretation of protein-function models if feature attribution is used. It does not provide direct evidence about protein prediction performance or biological validity.
+
+**Full-text status:** **Required; the listed PDF returned a 403 error.**
+
+#### 17. Informed Machine Learning  
+**von Rueden et al., 2021.**
+
+Potentially relevant to incorporating prior biological knowledge, physical constraints, structural information, or ontology relationships into models. This is methodological background rather than protein-specific evidence.
+
+**Full-text status:** **Required; the listed PDF returned a 404 error.**
+
+#### 18. Using machine learning approaches for multi-omics data analysis: A review  
+**Reel et al., 2021.**
+
+Could inform the use of integrated transcriptomic, proteomic, and other molecular data for functional inference. It is not specifically focused on protein-function prediction.
+
+**Full-text status:** **Required; the listed full-text route returned a 403 error.**
+
+---
+
+## Records that should generally be excluded from the core synthesis
+
+The following records appear unrelated to the question or concern clinical prediction rather than protein-function prediction:
+
+- Machine-learning prediction of type 2 diabetes subtypes;
+- AKT and EZH2 inhibitors in triple-negative breast cancer;
+- dynamic prediction of non-neutral SARS-CoV-2 variants;
+- LCN2 and renal-transplant injury;
+- discovery of an RORγt inhibitor;
+- baicalein mechanisms in cervical cancer;
+- HBV-related acute-on-chronic liver failure mortality;
+- BRAF drug-resistance variants;
+- AI-guided therapy discovery in inflammatory bowel disease;
+- machine-learning prediction of lung-cancer drug efficacy;
+- virtual-patient analysis of PD-1 biomarkers;
+- reviews of deep learning in general;
+- swarm learning for clinical machine learning;
+- generative AI in general;
+- small-data machine learning in materials science;
+- digital twinning;
+- ensemble deep learning;
+- chronic kidney disease prediction; and
+- extreme learning machines.
+
+Some of these papers may use proteins as biomarkers, targets, or molecular features, but that is not equivalent to predicting protein function. They should only be reconsidered if full-text screening shows a distinct protein-function prediction component.
+
+---
+
+## What can be concluded about methods?
+
+Based on the titles, the relevant records indicate several major modelling strategies:
+
+1. **Graph neural networks for structural prediction**  
+   The Gligorijević et al. paper is the clearest example. Protein structures can be encoded as graphs, allowing models to learn local and long-range spatial relationships relevant to function.
+
+2. **Protein language models and transformer representations**  
+   The records on sequence-based virtual screening and directed evolution indicate the use of learned sequence representations. These models may capture evolutionary or contextual information without relying exclusively on manually engineered features.
+
+3. **Structure-informed learning**  
+   AlphaFold and related structure-prediction work provide predicted three-dimensional models that can be used when experimental structures are unavailable. This expands the possible coverage of structure-based function prediction but introduces uncertainty from predicted coordinates and confidence estimates.
+
+4. **Interaction and network models**  
+   Graph-learning and protein–protein interaction papers suggest that function can be inferred from relational information, including interaction partners and network context.
+
+5. **Integrated and knowledge-informed models**  
+   General methodological records point toward combining sequence, structure, interaction, omics, and prior biological knowledge. Whether the supplied protein-specific studies actually do this must be verified.
+
+---
+
+## Datasets and evaluation metrics
+
+The supplied metadata do **not** identify the datasets or metrics used by the core studies. Full-text extraction should specifically look for the following.
+
+### Likely dataset categories to verify
+
+- experimentally annotated protein sequences;
+- Gene Ontology or other curated functional annotations;
+- protein structures from the Protein Data Bank;
+- predicted structures from AlphaFold DB;
+- protein–protein interaction databases;
+- enzyme or metalloprotein specialist databases;
+- sequence-similarity-reduced benchmark sets;
+- domain or family-level datasets; and
+- experimentally measured biochemical or binding datasets.
+
+### Metrics to verify
+
+For multi-label functional annotation, relevant metrics may include:
+
+- precision, recall, and F1 score;
+- micro- and macro-averaged scores;
+- area under the ROC curve;
+- area under the precision–recall curve;
+- top-\(k\) precision or recall;
+- coverage and ranking-based metrics;
+- ontology-aware semantic similarity measures; and
+- calibration or confidence metrics.
+
+For interaction or affinity tasks, likely metrics include:
+
+- AUROC and AUPRC;
+- accuracy, precision, recall, and F1;
+- correlation coefficients;
+- root mean squared error or mean absolute error for regression; and
+- ranking measures such as enrichment or top-\(k\) retrieval.
+
+These are **candidate metrics to look for, not findings established by the supplied records**.
+
+---
+
+## Remaining limitations and risks
+
+Several limitations are likely to be important, but their presence and magnitude must be confirmed in the primary papers.
+
+1. **Annotation incompleteness and label noise**  
+   Protein databases contain unevenly characterized proteins. An unannotated protein is not necessarily nonfunctional, and functional labels may be incomplete or too broad.
+
+2. **Homology and data leakage**  
+   Random sequence splitting can place highly similar proteins in both training and test sets, producing inflated performance. Evaluation should use identity-controlled or family-level splits where appropriate.
+
+3. **Class imbalance and hierarchical labels**  
+   Common functions are overrepresented, while rare functions may have very few examples. Gene Ontology labels are also hierarchical and non-independent, complicating both training and evaluation.
+
+4. **Limited generalization to novel proteins**  
+   Strong performance on proteins similar to the training set may not translate to remote homologues, new folds, unusual taxa, membrane proteins, disordered proteins, or multi-functional proteins.
+
+5. **Dependence on structural quality**  
+   Structure-based methods may be sensitive to missing regions, flexible conformations, ligand states, oligomerization, and errors in predicted structures.
+
+6. **Function is context-dependent**  
+   Protein activity can depend on cellular localization, expression, post-translational modification, cofactors, interaction partners, environmental conditions, and substrate availability. A static sequence or structure may not capture all of these factors.
+
+7. **Interpretability does not guarantee biological explanation**  
+   Attribution methods can identify influential inputs, but those signals still require experimental or mechanistic validation.
+
+8. **Benchmark and reproducibility problems**  
+   Inconsistent preprocessing, hidden overlap, incomplete reporting, and lack of external validation can make comparisons unreliable.
+
+---
+
+## Priority full-text verification list
+
+The highest-priority records for full-text retrieval and structured extraction are:
+
+1. **Gligorijević et al. (2021)** — direct structural function-prediction study.
+2. **Yu et al. (2022)** — metalloprotein machine-learning review.
+3. **Gao et al. (2023)** — graph learning for protein–protein interactions.
+4. **Chen et al. (2024)** and **Schauperl & Denny (2022)** — structural prediction context.
+5. **Jumper et al. (2021)** and **Váradi et al. (2023)** — structural resources relevant to downstream prediction.
+6. **Tran et al. (2026)** and **Zhang et al. (2025)** — protein language-model applications.
+7. **Kapoor & Narayanan (2023)** — leakage and reproducibility concerns.
+8. **Gligorijević et al. and any interaction/affinity papers** — for exact datasets, split strategies, baselines, and metrics.
+
+Overall, the supplied set supports a preliminary conclusion that protein-function prediction is moving toward **multimodal learning over sequence, structure, and biological networks**, with graph neural networks and protein language models as prominent approaches. It does not yet support a reliable comparison of model performance, datasets, or limitations because those details are absent from the bibliographic records and require full-text verification.
