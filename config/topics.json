@@ -1,6 +1,6 @@
 {
   "topic": "AI and machine learning in protein function prediction",
-  "research_question": "How are machine-learning methods being used to predict protein function, what datasets and evaluation metrics are used, and what limitations remain?",
-  "years_back": 5,
-  "papers_per_database": 20
+  "question": "How are machine-learning methods being used to predict protein function, what datasets and evaluation metrics are used, and what limitations remain?",
+  "years": 5,
+  "papers": 20
 }
