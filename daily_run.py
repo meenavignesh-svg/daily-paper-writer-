@@ -21,37 +21,65 @@ def pdf(path, title, text):
     doc.build(story)
 
 def fallback_review(topic, question, rows):
+    """Generate a structured, usable review from metadata when LLM is unavailable."""
+    day = date.today()
     lines = [
-        f'# Daily Literature Review — {date.today()}',
+        f'# Daily Literature Review: {topic}',
+        f'Date: {day}',
         '',
-        f'**Topic:** {topic}',
-        f'**Research question:** {question}',
+        '## Research Question',
+        question,
         '',
-        '## Note',
-        'AI drafting was unavailable or failed. This is a structured evidence list only. Always read the original papers before using any claims.',
+        '## Summary',
+        f'This document compiles {len(rows)} recent papers related to the topic. '
+        'AI drafting was unavailable, so the content below is built directly from bibliographic metadata. '
+        'Each entry includes title, authors, year, source, DOI/URL, and a reminder to extract findings from the original paper. '
+        'This is an evidence-collection scaffold, not a finished scientific review.',
         '',
-        '## Papers',
+        '## Evidence Table (Bibliographic)',
         ''
     ]
-    for i, r in enumerate(rows, 1):
-        lines += [
-            f'### [{i}] {r.get("title", "Untitled")}',
-            f'- Year: {r.get("year", "")}',
-            f'- Source: {r.get("source", "")}',
-            f'- Authors: {r.get("authors", "")}',
-            f'- DOI: {r.get("doi") or "Not supplied"}',
-            f'- URL: {r.get("url", "")}',
-            '- Key finding: **[READ AND VERIFY]**',
-            '- Methods/dataset: **[EXTRACT]**',
-            '- Limitation: **[EXTRACT]**',
-            ''
-        ]
+
+    # Group roughly by year for readability
+    by_year = {}
+    for r in rows:
+        y = r.get('year') or 'Unknown'
+        by_year.setdefault(y, []).append(r)
+
+    for year in sorted(by_year.keys(), reverse=True):
+        lines.append(f'### {year}')
+        lines.append('')
+        for i, r in enumerate(by_year[year], 1):
+            title = r.get('title') or 'Untitled'
+            authors = r.get('authors') or 'Authors not supplied'
+            source = r.get('source') or ''
+            doi = r.get('doi') or ''
+            url = r.get('url') or ''
+            pmid = r.get('pmid') or ''
+
+            lines.append(f'**{title}**')
+            lines.append(f'- Authors: {authors}')
+            lines.append(f'- Source: {source}')
+            if doi:
+                lines.append(f'- DOI: {doi}')
+            if pmid:
+                lines.append(f'- PMID: {pmid}')
+            if url:
+                lines.append(f'- Link: {url}')
+            lines.append('- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**')
+            lines.append('')
+
     lines += [
-        '## Researcher checklist',
-        '- [ ] Read the original papers',
-        '- [ ] Verify every claim and reference',
-        '- [ ] Record methods, datasets and limitations',
-        '- [ ] Add only evidence-supported statements to the manuscript'
+        '## Recommended Next Steps',
+        '1. Open the attached individual PDFs (or follow the DOI/URL links).',
+        '2. For each relevant paper, extract: main method, datasets used, evaluation metrics, key quantitative results, and stated limitations.',
+        '3. Record contradictions or gaps across papers.',
+        '4. Only after verification, move evidence into a formal manuscript.',
+        '',
+        '## Scientific Rule',
+        'AI is an assistant, not a source. Never submit an AI-generated or placeholder claim without checking the original paper.',
+        '',
+        f'Generated on {day} by Daily Bioinformatics Paper Writer.'
     ]
     return '\n'.join(lines)
 
@@ -79,7 +107,7 @@ def main():
     (root / 'researcher.md').write_text(evidence.get('text', ''), encoding='utf-8')
     (root / 'analysis.md').write_text(analysis.get('text', ''), encoding='utf-8')
 
-    if writer.get('status') == 'ok':
+    if writer.get('status') == 'ok' and writer.get('text') and 'LLM call failed' not in writer.get('text', '') and 'LLM not configured' not in writer.get('text', ''):
         review = writer['text']
     else:
         review = fallback_review(topic, question, rows)
@@ -100,7 +128,7 @@ def main():
     # 1. Send the review PDF
     ok, msg = send(
         f'Daily Bioinformatics Research — Review PDF — {day}',
-        f'Topic: {topic}\n\nResearch question: {question}\n\nPapers found: {len(rows)}\nOpen-access PDFs downloaded: {len(pdf_files)}\n\nThis email contains only the generated literature-review PDF.\nIndividual paper PDFs will arrive in separate emails.\n\nAlways verify original papers before using any claims.',
+        f'Topic: {topic}\n\nResearch question: {question}\n\nPapers found: {len(rows)}\nOpen-access PDFs downloaded: {len(pdf_files)}\n\nThis email contains the literature-review PDF.\nIndividual paper PDFs will arrive in separate emails.\n\nAlways verify original papers before using any claims.',
         [str(review_pdf)]
     )
     email_log.append(f'review-paper.pdf: {msg}')
