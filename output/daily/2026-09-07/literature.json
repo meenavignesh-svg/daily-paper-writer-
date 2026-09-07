@@ -380,16 +380,6 @@
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S095219762200269X"
   },
   {
-    "title": "A review on extreme learning machine",
-    "year": "2021",
-    "authors": "Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang",
-    "doi": "10.1007/s11042-021-11007-7",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1007/s11042-021-11007-7",
-    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-021-11007-7.pdf"
-  },
-  {
     "title": "Prediction of Chronic Kidney Disease - A Machine Learning Perspective",
     "year": "2021",
     "authors": "Pankaj Chittora, Sandeep Chaurasia, Prąsun Chakrabarti, Gaurav Kumawat, Tulika Chakrabarti, Zbigniew Leonowicz, Michał Jasiński, Łukasz Jasiński",
@@ -398,5 +388,15 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1109/access.2021.3053763",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09333572.pdf"
+  },
+  {
+    "title": "A review on extreme learning machine",
+    "year": "2021",
+    "authors": "Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang",
+    "doi": "10.1007/s11042-021-11007-7",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1007/s11042-021-11007-7",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-021-11007-7.pdf"
   }
 ]

@@ -8,4 +8,6 @@ review-paper.pdf: sent
 035_Small_data_machine_learning_in_materials_science.pdf: sent
 037_The_Role_of_AI_Machine_Learning_and_Big_Data_in_Digital_Twinning_A_Systematic_Literature_R.pdf: sent
 039_A_review_on_extreme_learning_machine.pdf: sent
+039_Prediction_of_Chronic_Kidney_Disease_-_A_Machine_Learning_Perspective.pdf: sent
+040_A_review_on_extreme_learning_machine.pdf: sent
 040_Prediction_of_Chronic_Kidney_Disease_-_A_Machine_Learning_Perspective.pdf: sent
