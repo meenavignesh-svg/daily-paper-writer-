@@ -19,7 +19,7 @@ def call(role, topic, question, evidence):
         'writer': 'You are AI Scientific Writer. Draft a cautious literature-review section from the supplied evidence and analysis. Cite records as [1], [2], etc. Never invent facts. Use [VERIFY] when evidence is insufficient. Produce clear sections: Title, Abstract, Introduction, Evidence Synthesis, Methods and Datasets, Research Gaps, Limitations, Conclusion, References.'
     }
 
-    # Keep evidence short to avoid token / size related 400 errors
+    # Keep evidence short to avoid token / size related errors
     evidence_str = json.dumps(evidence, ensure_ascii=False)
     if len(evidence_str) > 25000:
         evidence_str = evidence_str[:25000] + '... [truncated]'
@@ -30,6 +30,12 @@ def call(role, topic, question, evidence):
         f"EVIDENCE:\n{evidence_str}"
     )
 
+    # Do not send temperature — some models (e.g. gpt-5.6-luna) only accept the default
+    payload = {
+        'model': model,
+        'messages': [{'role': 'user', 'content': content}]
+    }
+
     try:
         r = requests.post(
             f'{base}/chat/completions',
@@ -37,16 +43,11 @@ def call(role, topic, question, evidence):
                 'Authorization': f'Bearer {key}',
                 'Content-Type': 'application/json'
             },
-            json={
-                'model': model,
-                'messages': [{'role': 'user', 'content': content}],
-                'temperature': 0.2
-            },
+            json=payload,
             timeout=180
         )
 
         if r.status_code >= 400:
-            # Capture the real error message from the provider
             try:
                 err_body = r.json()
             except Exception:
