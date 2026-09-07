@@ -40,13 +40,23 @@
     "pdf_url": ""
   },
   {
-    "title": "Machine learning-driven discovery of NSC828779 as a multi-mechanistic NLRP3 inflammasome inhibitor for inflammatory diseases.",
-    "year": "2025",
-    "authors": "Tang SL, Sumitra MR, Chen LC, Liu FC, Hsu HL, Kuo YC, Ansar M, Huang SL",
+    "title": "Dynamic Prediction of Non-Neutral SARS-Cov-2 Variants Using Incremental Machine Learning.",
+    "year": "2022",
+    "authors": "Nicora G, Marini S, Salemi M, Bellazzi R",
     "doi": "",
-    "pmid": "40987012",
+    "pmid": "35612170",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40987012/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35612170/",
+    "pdf_url": ""
+  },
+  {
+    "title": "LCN2 drives ferroptosis-associated ischemia-reperfusion injury after renal transplantation: integrated machine learning and in vivo validation.",
+    "year": "2025",
+    "authors": "Wu Z, Yu B, He Q, Huang C",
+    "doi": "",
+    "pmid": "41205031",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41205031/",
     "pdf_url": ""
   },
   {
@@ -67,16 +77,6 @@
     "pmid": "40915561",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40915561/",
-    "pdf_url": ""
-  },
-  {
-    "title": "LCN2 drives ferroptosis-associated ischemia-reperfusion injury after renal transplantation: integrated machine learning and in vivo validation.",
-    "year": "2025",
-    "authors": "Wu Z, Yu B, He Q, Huang C",
-    "doi": "",
-    "pmid": "41205031",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41205031/",
     "pdf_url": ""
   },
   {
@@ -107,6 +107,16 @@
     "pmid": "35727311",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/35727311/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Combining Molecular Dynamics and Machine Learning to Predict Drug Resistance Causing Variants of BRAF in Colorectal Cancer.",
+    "year": "2025",
+    "authors": "Xie L, Lockhart C, Klimov DK, Jafri MS",
+    "doi": "",
+    "pmid": "40942081",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40942081/",
     "pdf_url": ""
   },
   {
@@ -150,6 +160,16 @@
     "pdf_url": ""
   },
   {
+    "title": "Sequence-based virtual screening using transformers.",
+    "year": "2025",
+    "authors": "Zhang S, Huo D, Horne RI, Qi Y, Pujalte Ojeda S, Yan A, Vendruscolo M",
+    "doi": "",
+    "pmid": "40721411",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40721411/",
+    "pdf_url": ""
+  },
+  {
     "title": "Virtual patient analysis identifies strategies to improve the performance of predictive biomarkers for PD-1 blockade.",
     "year": "2024",
     "authors": "Arulraj T, Wang H, Deshpande A, Varadhan R, Emens LA, Jaffee EM, Fertig EJ, Santa-Maria CA",
@@ -170,16 +190,6 @@
     "pdf_url": ""
   },
   {
-    "title": "Sequence-based virtual screening using transformers.",
-    "year": "2025",
-    "authors": "Zhang S, Huo D, Horne RI, Qi Y, Pujalte Ojeda S, Yan A, Vendruscolo M",
-    "doi": "",
-    "pmid": "40721411",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40721411/",
-    "pdf_url": ""
-  },
-  {
     "title": "Novel machine learning approaches revolutionize protein knowledge.",
     "year": "2023",
     "authors": "Bordin N, Dallago C, Heinzinger M, Kim S, Littmann M, Rauer C, Steinegger M, Rost B",
@@ -187,16 +197,6 @@
     "pmid": "36504138",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/36504138/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Multi-Omics Integration With Machine Learning Identified Early Diabetic Retinopathy, Diabetic Macula Edema and Anti-VEGF Treatment Response.",
-    "year": "2024",
-    "authors": "Pang Y, Luo C, Zhang Q, Zhang X, Liao N, Ji Y, Mi L, Gan Y",
-    "doi": "",
-    "pmid": "39671223",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39671223/",
     "pdf_url": ""
   },
   {
