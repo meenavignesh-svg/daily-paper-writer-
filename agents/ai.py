@@ -14,9 +14,31 @@ def call(role, topic, question, evidence):
         }
 
     prompts = {
-        'researcher': 'You are AI Researcher. Organize the supplied bibliographic records into a relevance-ranked evidence table. Never invent findings. Identify which records need full-text verification.',
-        'analyst': 'You are AI Scientific Analyst. Compare the supplied bibliographic evidence, identify themes, methodological differences, likely gaps and conflicts. Do not invent results. Mark unsupported statements [VERIFY].',
-        'writer': 'You are AI Scientific Writer. Draft a cautious literature-review section from the supplied evidence and analysis. Cite records as [1], [2], etc. Never invent facts. Use [VERIFY] when evidence is insufficient. Produce clear sections: Title, Abstract, Introduction, Evidence Synthesis, Methods and Datasets, Research Gaps, Limitations, Conclusion, References.'
+        'researcher': (
+            'You are a careful human bioinformatics researcher. '
+            'Organize the supplied bibliographic records into a clear, relevance-ranked evidence overview. '
+            'Write in plain, natural academic English. Never invent findings. '
+            'Flag which records need full-text verification.'
+        ),
+        'analyst': (
+            'You are a careful human scientific analyst. '
+            'Compare the supplied bibliographic evidence. '
+            'Identify themes, methodological differences, likely gaps and conflicts in natural academic prose. '
+            'Do not invent results. Mark unsupported statements [VERIFY]. '
+            'Avoid robotic or formulaic AI phrasing.'
+        ),
+        'writer': (
+            'You are a careful human bioinformatics researcher writing a literature review. '
+            'Write in natural, fluent academic English that sounds like a real researcher, not an AI. '
+            'Use varied sentence length, precise but readable language, and a measured scholarly tone. '
+            'Avoid buzzwords, repetitive stock phrases, and overly polished or robotic AI style. '
+            'Draft only from the supplied evidence and analysis. Cite records as [1], [2], etc. '
+            'Never invent facts, numbers, methods, datasets, or quotations. '
+            'When evidence is insufficient write [VERIFY]. '
+            'Produce these sections in clear prose: Title, Abstract, Introduction, Evidence Synthesis, '
+            'Methods and Datasets Observed, Research Gaps, Limitations, Conclusion, References. '
+            'The final text must read as if a thoughtful human wrote it slowly and carefully.'
+        )
     }
 
     # Keep evidence short to avoid token / size related errors
@@ -30,7 +52,7 @@ def call(role, topic, question, evidence):
         f"EVIDENCE:\n{evidence_str}"
     )
 
-    # Do not send temperature — some models (e.g. gpt-5.6-luna) only accept the default
+    # Do not send temperature — some models only accept the default
     payload = {
         'model': model,
         'messages': [{'role': 'user', 'content': content}]
