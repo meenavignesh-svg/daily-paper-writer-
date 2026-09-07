@@ -40,6 +40,16 @@
     "pdf_url": ""
   },
   {
+    "title": "A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery: From Reproducibility to Clinical Translation.",
+    "year": "2026",
+    "authors": "Niazi SK",
+    "doi": "",
+    "pmid": "42196328",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42196328/",
+    "pdf_url": ""
+  },
+  {
     "title": "Dynamic Prediction of Non-Neutral SARS-Cov-2 Variants Using Incremental Machine Learning.",
     "year": "2022",
     "authors": "Nicora G, Marini S, Salemi M, Bellazzi R",
@@ -77,6 +87,16 @@
     "pmid": "40915561",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40915561/",
+    "pdf_url": ""
+  },
+  {
+    "title": "The rise of deep learning and transformations in bioactivity prediction power of molecular modeling tools.",
+    "year": "2021",
+    "authors": "Bule M, Jalalimanesh N, Bayrami Z, Baeeri M, Abdollahi M",
+    "doi": "",
+    "pmid": "34532977",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34532977/",
     "pdf_url": ""
   },
   {
@@ -177,26 +197,6 @@
     "pmid": "39467131",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39467131/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Computational modelling of olfactory receptors.",
-    "year": "2025",
-    "authors": "Odoemelam CS, Steuber V, Schmuker M",
-    "doi": "",
-    "pmid": "40441539",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40441539/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Novel machine learning approaches revolutionize protein knowledge.",
-    "year": "2023",
-    "authors": "Bordin N, Dallago C, Heinzinger M, Kim S, Littmann M, Rauer C, Steinegger M, Rost B",
-    "doi": "",
-    "pmid": "36504138",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36504138/",
     "pdf_url": ""
   },
   {
