@@ -1,0 +1,1 @@
+Email send failed: (552, b"5.3.4 Your message exceeded Google's message size limits. To view our\n5.3.4 message size guidelines, go to\n5.3.4  https://support.google.com/mail/?p=MaxSizeError 46e09a7af769-7fc68d5ae2bsm6009031a34.3 - gsmtp", 'meenavignesh6789@gmail.com')
