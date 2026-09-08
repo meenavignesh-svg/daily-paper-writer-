@@ -3,7 +3,7 @@ name: Daily Bioinformatics Paper Writer
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 2 * * *'
       timezone: 'Asia/Kolkata'
 
 permissions:
@@ -12,6 +12,7 @@ permissions:
 jobs:
   daily-research:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     env:
       LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
