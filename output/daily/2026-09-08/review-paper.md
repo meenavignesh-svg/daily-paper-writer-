@@ -34,13 +34,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/41205031/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Integrating protein language models and automatic biofoundry for enhanced protein evolution.**
-- Authors: Zhang Q, Chen W, Qin M, Wang Y, Pu Z, Ding K, Liu Y, Zhang Q
-- Source: PubMed
-- PMID: 39934638
-- Link: https://pubmed.ncbi.nlm.nih.gov/39934638/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Deciphering the mechanism of baicalein in cervical cancer via bioinformatics, machine learning and computational simulations: PIM1 and CDK2 are key target proteins.**
 - Authors: Wang S, Liu C, Ye D, Qi J, Xing Y, Wang J, Fan X, Li X
 - Source: PubMed
@@ -171,18 +164,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1016/j.patter.2023.100804
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Generative AI**
-- Authors: Stefan Feuerriegel, Jochen Hartmann, Christian Janiesch, Patrick Zschech
-- Source: OpenAlex
-- DOI: 10.1007/s12599-023-00834-7
-- Link: https://doi.org/10.1007/s12599-023-00834-7
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Small data machine learning in materials science**
 - Authors: Pengcheng Xu, Xiaobo Ji, Minjie Li, Wencong Lu
 - Source: OpenAlex
 - DOI: 10.1038/s41524-023-01000-z
 - Link: https://doi.org/10.1038/s41524-023-01000-z
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Generative AI**
+- Authors: Stefan Feuerriegel, Jochen Hartmann, Christian Janiesch, Patrick Zschech
+- Source: OpenAlex
+- DOI: 10.1007/s12599-023-00834-7
+- Link: https://doi.org/10.1007/s12599-023-00834-7
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 ### 2022
@@ -222,6 +215,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Source: PubMed
 - PMID: 34253728
 - Link: https://pubmed.ncbi.nlm.nih.gov/34253728/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Predictive modeling of estrogen receptor agonism, antagonism, and binding activities using machine- and deep-learning approaches.**
+- Authors: Ciallella HL, Russo DP, Aleksunes LM, Grimm FA, Zhu H
+- Source: PubMed
+- PMID: 32778734
+- Link: https://pubmed.ncbi.nlm.nih.gov/32778734/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Highly accurate protein structure prediction with AlphaFold**
@@ -287,18 +287,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1109/access.2021.3060863
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Prediction of Chronic Kidney Disease - A Machine Learning Perspective**
-- Authors: Pankaj Chittora, Sandeep Chaurasia, Prąsun Chakrabarti, Gaurav Kumawat, Tulika Chakrabarti, Zbigniew Leonowicz, Michał Jasiński, Łukasz Jasiński
-- Source: OpenAlex
-- DOI: 10.1109/access.2021.3053763
-- Link: https://doi.org/10.1109/access.2021.3053763
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **A review on extreme learning machine**
 - Authors: Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang
 - Source: OpenAlex
 - DOI: 10.1007/s11042-021-11007-7
 - Link: https://doi.org/10.1007/s11042-021-11007-7
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Prediction of Chronic Kidney Disease - A Machine Learning Perspective**
+- Authors: Pankaj Chittora, Sandeep Chaurasia, Prąsun Chakrabarti, Gaurav Kumawat, Tulika Chakrabarti, Zbigniew Leonowicz, Michał Jasiński, Łukasz Jasiński
+- Source: OpenAlex
+- DOI: 10.1109/access.2021.3053763
+- Link: https://doi.org/10.1109/access.2021.3053763
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 ## Recommended Next Steps

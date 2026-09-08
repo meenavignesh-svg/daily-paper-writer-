@@ -50,16 +50,6 @@
     "pdf_url": ""
   },
   {
-    "title": "Integrating protein language models and automatic biofoundry for enhanced protein evolution.",
-    "year": "2025",
-    "authors": "Zhang Q, Chen W, Qin M, Wang Y, Pu Z, Ding K, Liu Y, Zhang Q",
-    "doi": "",
-    "pmid": "39934638",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39934638/",
-    "pdf_url": ""
-  },
-  {
     "title": "Machine Learning Approaches for Metalloproteins.",
     "year": "2022",
     "authors": "Yu Y, Wang R, Teo RD",
@@ -167,6 +157,16 @@
     "pmid": "39467131",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39467131/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Predictive modeling of estrogen receptor agonism, antagonism, and binding activities using machine- and deep-learning approaches.",
+    "year": "2021",
+    "authors": "Ciallella HL, Russo DP, Aleksunes LM, Grimm FA, Zhu H",
+    "doi": "",
+    "pmid": "32778734",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32778734/",
     "pdf_url": ""
   },
   {
@@ -330,6 +330,16 @@
     "pdf_url": null
   },
   {
+    "title": "Small data machine learning in materials science",
+    "year": "2023",
+    "authors": "Pengcheng Xu, Xiaobo Ji, Minjie Li, Wencong Lu",
+    "doi": "10.1038/s41524-023-01000-z",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s41524-023-01000-z",
+    "pdf_url": "https://www.nature.com/articles/s41524-023-01000-z.pdf"
+  },
+  {
     "title": "Generative AI",
     "year": "2023",
     "authors": "Stefan Feuerriegel, Jochen Hartmann, Christian Janiesch, Patrick Zschech",
@@ -348,16 +358,6 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1109/tkde.2021.3079836",
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/69/4358933/09429985.pdf"
-  },
-  {
-    "title": "Small data machine learning in materials science",
-    "year": "2023",
-    "authors": "Pengcheng Xu, Xiaobo Ji, Minjie Li, Wencong Lu",
-    "doi": "10.1038/s41524-023-01000-z",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1038/s41524-023-01000-z",
-    "pdf_url": "https://www.nature.com/articles/s41524-023-01000-z.pdf"
   },
   {
     "title": "The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities",
@@ -380,16 +380,6 @@
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S095219762200269X"
   },
   {
-    "title": "Prediction of Chronic Kidney Disease - A Machine Learning Perspective",
-    "year": "2021",
-    "authors": "Pankaj Chittora, Sandeep Chaurasia, Prąsun Chakrabarti, Gaurav Kumawat, Tulika Chakrabarti, Zbigniew Leonowicz, Michał Jasiński, Łukasz Jasiński",
-    "doi": "10.1109/access.2021.3053763",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1109/access.2021.3053763",
-    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09333572.pdf"
-  },
-  {
     "title": "A review on extreme learning machine",
     "year": "2021",
     "authors": "Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang",
@@ -398,5 +388,15 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1007/s11042-021-11007-7",
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-021-11007-7.pdf"
+  },
+  {
+    "title": "Prediction of Chronic Kidney Disease - A Machine Learning Perspective",
+    "year": "2021",
+    "authors": "Pankaj Chittora, Sandeep Chaurasia, Prąsun Chakrabarti, Gaurav Kumawat, Tulika Chakrabarti, Zbigniew Leonowicz, Michał Jasiński, Łukasz Jasiński",
+    "doi": "10.1109/access.2021.3053763",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1109/access.2021.3053763",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09333572.pdf"
   }
 ]
