@@ -270,16 +270,6 @@
     "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cts.70056"
   },
   {
-    "title": "Swarm Learning for decentralized and confidential clinical machine learning",
-    "year": "2021",
-    "authors": "Stefanie Warnat‐Herresthal, Hartmut Schultze, Krishnaprasad Lingadahalli Shastry, Sathyanarayanan Manamohan, Saikat Mukherjee, Vishesh Garg, Ravi Sarveswara, Kristian Händler",
-    "doi": "10.1038/s41586-021-03583-3",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1038/s41586-021-03583-3",
-    "pdf_url": "https://www.nature.com/articles/s41586-021-03583-3.pdf"
-  },
-  {
     "title": "Leakage and the reproducibility crisis in machine-learning-based science",
     "year": "2023",
     "authors": "Sayash Kapoor, Arvind Narayanan",
@@ -288,6 +278,16 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1016/j.patter.2023.100804",
     "pdf_url": "http://www.cell.com/article/S2666389923001599/pdf"
+  },
+  {
+    "title": "Swarm Learning for decentralized and confidential clinical machine learning",
+    "year": "2021",
+    "authors": "Stefanie Warnat‐Herresthal, Hartmut Schultze, Krishnaprasad Lingadahalli Shastry, Sathyanarayanan Manamohan, Saikat Mukherjee, Vishesh Garg, Ravi Sarveswara, Kristian Händler",
+    "doi": "10.1038/s41586-021-03583-3",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s41586-021-03583-3",
+    "pdf_url": "https://www.nature.com/articles/s41586-021-03583-3.pdf"
   },
   {
     "title": "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences",
@@ -310,16 +310,6 @@
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0734975021000458"
   },
   {
-    "title": "Small data machine learning in materials science",
-    "year": "2023",
-    "authors": "Pengcheng Xu, Xiaobo Ji, Minjie Li, Wencong Lu",
-    "doi": "10.1038/s41524-023-01000-z",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1038/s41524-023-01000-z",
-    "pdf_url": "https://www.nature.com/articles/s41524-023-01000-z.pdf"
-  },
-  {
     "title": "Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction",
     "year": "2025",
     "authors": "Saro Passaro, Gabriele Corso, Jeremy Wohlwend, Mateo Reveiz, Stephan Thaler, Vignesh Ram Somnath, Noah Getz, Tally Portnoi",
@@ -340,14 +330,14 @@
     "pdf_url": "https://www.mdpi.com/1424-8220/21/11/3758/pdf?version=1622446805"
   },
   {
-    "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems",
-    "year": "2021",
-    "authors": "Laura von Rueden, Sebastian Mayer, Katharina Beckh, Bogdan Georgiev, Sven Giesselbach, Raoul Heese, Birgit Kirsch, Michał Walczak",
-    "doi": "10.1109/tkde.2021.3079836",
+    "title": "Small data machine learning in materials science",
+    "year": "2023",
+    "authors": "Pengcheng Xu, Xiaobo Ji, Minjie Li, Wencong Lu",
+    "doi": "10.1038/s41524-023-01000-z",
     "pmid": "",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1109/tkde.2021.3079836",
-    "pdf_url": "https://ieeexplore.ieee.org/ielx7/69/4358933/09429985.pdf"
+    "url": "https://doi.org/10.1038/s41524-023-01000-z",
+    "pdf_url": "https://www.nature.com/articles/s41524-023-01000-z.pdf"
   },
   {
     "title": "Generative AI",
@@ -358,6 +348,16 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1007/s12599-023-00834-7",
     "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12599-023-00834-7.pdf"
+  },
+  {
+    "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems",
+    "year": "2021",
+    "authors": "Laura von Rueden, Sebastian Mayer, Katharina Beckh, Bogdan Georgiev, Sven Giesselbach, Raoul Heese, Birgit Kirsch, Michał Walczak",
+    "doi": "10.1109/tkde.2021.3079836",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1109/tkde.2021.3079836",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/69/4358933/09429985.pdf"
   },
   {
     "title": "The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities",
@@ -390,13 +390,13 @@
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09333572.pdf"
   },
   {
-    "title": "A review on extreme learning machine",
-    "year": "2021",
-    "authors": "Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang",
-    "doi": "10.1007/s11042-021-11007-7",
+    "title": "Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems",
+    "year": "2022",
+    "authors": "Jared Willard, Xiaowei Jia, Shaoming Xu, Michael S. Steinbach, Vipin Kumar",
+    "doi": "10.1145/3514228",
     "pmid": "",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1007/s11042-021-11007-7",
-    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-021-11007-7.pdf"
+    "url": "https://doi.org/10.1145/3514228",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3514228"
   }
 ]

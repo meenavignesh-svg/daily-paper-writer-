@@ -201,6 +201,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1016/j.engappai.2022.105151
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems**
+- Authors: Jared Willard, Xiaowei Jia, Shaoming Xu, Michael S. Steinbach, Vipin Kumar
+- Source: OpenAlex
+- DOI: 10.1145/3514228
+- Link: https://doi.org/10.1145/3514228
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 ### 2021
 
 **Flavonoids from Pterogyne nitens as Zika virus NS2B-NS3 protease inhibitors.**
@@ -292,13 +299,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Source: OpenAlex
 - DOI: 10.1109/access.2021.3053763
 - Link: https://doi.org/10.1109/access.2021.3053763
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
-**A review on extreme learning machine**
-- Authors: Jian Wang, Siyuan Lu, Shuihua Wang‎, Yudong Zhang
-- Source: OpenAlex
-- DOI: 10.1007/s11042-021-11007-7
-- Link: https://doi.org/10.1007/s11042-021-11007-7
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 ## Recommended Next Steps
