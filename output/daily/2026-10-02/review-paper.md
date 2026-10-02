@@ -25,20 +25,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/40915561/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Predicting drug responses of unseen cell types through transfer learning with foundation models.**
-- Authors: Wang Y, Liu X, Fan Y, Xie B, Cheng J, Wong KC, Cheung P, King I
-- Source: PubMed
-- PMID: 41044387
-- Link: https://pubmed.ncbi.nlm.nih.gov/41044387/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
-**A meta learning and task adaptive approach for drug target affinity prediction.**
-- Authors: Wan M, Zhao Y, Zhang Y, Xu H, Yi D, Zan P, He S, Bo X
-- Source: PubMed
-- PMID: 41807414
-- Link: https://pubmed.ncbi.nlm.nih.gov/41807414/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 ### 2025
 
 **LCN2 drives ferroptosis-associated ischemia-reperfusion injury after renal transplantation: integrated machine learning and in vivo validation.**
@@ -48,11 +34,11 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/41205031/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Real-world clinical multi-omics analyses reveal bifurcation of ER-independent and ER-dependent drug resistance to CDK4/6 inhibitors.**
-- Authors: Kan Z, Wen J, Bonato V, Webster J, Yang W, Ivanov V, Kim KH, Roh W
+**Predicting response and survival of lung adenocarcinoma under anti-programmed death-1 therapy using biological deep learning.**
+- Authors: Wang Y, Zhang L, Xie H, Wang L, Wang Y, Li S, He J, Wang M
 - Source: PubMed
-- PMID: 39843429
-- Link: https://pubmed.ncbi.nlm.nih.gov/39843429/
+- PMID: 40971820
+- Link: https://pubmed.ncbi.nlm.nih.gov/40971820/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Deciphering the mechanism of baicalein in cervical cancer via bioinformatics, machine learning and computational simulations: PIM1 and CDK2 are key target proteins.**
@@ -62,25 +48,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/40339869/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Machine learning driven prediction of drug efficacy in lung cancer: based on protein biomarkers and clinical features.**
-- Authors: Li J, Chen A, Liu Z, Wei S, Zhang J, Chen J, Shi C
+**A nomogram for the prediction of response to anti-CGRP mAbs: the CGRP score.**
+- Authors: Romozzi M, Lokhandwala A, Vollono C, García-Azorín D, Vigani G, De Cesaris F, Altamura C, Vernieri F
 - Source: PubMed
-- PMID: 40355026
-- Link: https://pubmed.ncbi.nlm.nih.gov/40355026/
+- PMID: 40890582
+- Link: https://pubmed.ncbi.nlm.nih.gov/40890582/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Longitudinal single-cell RNA model aids prediction of EGFR-TKI resistance.**
-- Authors: Hou G, Lu Z, Zeng D, Chen Q, Cheng S, Song B
+**AI-Driven Variant Annotation for Precision Oncology in Breast Cancer.**
+- Authors: Shukla K, Wang Y, Spanheimer PM, Brunk E
 - Source: PubMed
-- PMID: 40739818
-- Link: https://pubmed.ncbi.nlm.nih.gov/40739818/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
-**A generalizable deep learning framework for structure-based protein-ligand affinity ranking.**
-- Authors: Brown BP
-- Source: PubMed
-- PMID: 41100673
-- Link: https://pubmed.ncbi.nlm.nih.gov/41100673/
+- PMID: 41127930
+- Link: https://pubmed.ncbi.nlm.nih.gov/41127930/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction**
@@ -120,11 +99,11 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/39671223/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Virtual patient analysis identifies strategies to improve the performance of predictive biomarkers for PD-1 blockade.**
-- Authors: Arulraj T, Wang H, Deshpande A, Varadhan R, Emens LA, Jaffee EM, Fertig EJ, Santa-Maria CA
+**Machine Learning Methods in Protein-Protein Docking.**
+- Authors: Michalik I, Kuder KJ
 - Source: PubMed
-- PMID: 39467131
-- Link: https://pubmed.ncbi.nlm.nih.gov/39467131/
+- PMID: 38987466
+- Link: https://pubmed.ncbi.nlm.nih.gov/38987466/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Accurate structure prediction of biomolecular interactions with AlphaFold 3**
@@ -142,6 +121,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 ### 2023
+
+**Hierarchical graph learning for protein-protein interaction.**
+- Authors: Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y
+- Source: PubMed
+- PMID: 36841846
+- Link: https://pubmed.ncbi.nlm.nih.gov/36841846/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Leakage and the reproducibility crisis in machine-learning-based science**
 - Authors: Sayash Kapoor, Arvind Narayanan
@@ -187,8 +173,15 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/35727311/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Artificial intelligence based methods for hot spot prediction.**
+- Authors: Ovek D, Abali Z, Zeylan ME, Keskin O, Gursoy A, Tuncbag N
+- Source: PubMed
+- PMID: 34954608
+- Link: https://pubmed.ncbi.nlm.nih.gov/34954608/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 **Robust deep learning–based protein sequence design using ProteinMPNN**
-- Authors: Justas Dauparas, Ivan V. Anishchenko, Nathaniel R. Bennett, Hua Juan Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet
+- Authors: Justas Dauparas, Ivan V. Anishchenko, Nathaniel R. Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet
 - Source: OpenAlex
 - DOI: 10.1126/science.add2187
 - Link: https://doi.org/10.1126/science.add2187
@@ -210,11 +203,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/33636437/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Artificial intelligence guided discovery of a barrier-protective therapy in inflammatory bowel disease.**
-- Authors: Sahoo D, Swanson L, Sayed IM, Katkar GD, Ibeawuchi SR, Mittal Y, Pranadinata RF, Tindle C
+**Cell-to-cell and type-to-type heterogeneity of signaling networks: insights from the crowd.**
+- Authors: Gabor A, Tognetti M, Driessen A, Tanevski J, Guo B, Cao W, Shen H, Yu T
 - Source: PubMed
-- PMID: 34253728
-- Link: https://pubmed.ncbi.nlm.nih.gov/34253728/
+- PMID: 34661974
+- Link: https://pubmed.ncbi.nlm.nih.gov/34661974/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Impact of between-tissue differences on pan-cancer predictions of drug sensitivity.**
+- Authors: Lloyd JP, Soellner MB, Merajver SD, Li JZ
+- Source: PubMed
+- PMID: 33630864
+- Link: https://pubmed.ncbi.nlm.nih.gov/33630864/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **An end-to-end heterogeneous graph representation learning-based framework for drug-target interaction prediction.**
@@ -239,14 +239,14 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Review of deep learning: concepts, CNN architectures, challenges, applications, future directions**
-- Authors: Laith H. Alzubaidi, Jinglan Zhang, Amjad J. Humaidi, Ayad Q. Al-Dujaili, Ye Duan, Omran Al-Shamma, Jose I. Santamaria, Mohammed Abdulraheem Fadhel
+- Authors: Laith Alzubaidi, Jinglan Zhang, Amjad J. Humaidi, Ayad Q. Al-Dujaili, Ye Duan, Omran Al-Shamma, José Santamaría, Mohammed Abdulraheem Fadhel
 - Source: OpenAlex
 - DOI: 10.1186/s40537-021-00444-8
 - Link: https://doi.org/10.1186/s40537-021-00444-8
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Structure-based protein function prediction using graph convolutional networks**
-- Authors: Vladimir Gligorijević, Paul Douglas Renfrew, Tomasz Kościółek, Julia Koehler Leman, Daniel Berenberg, Tommi Vatanen, Chris Chandler, Bryn C. Taylor
+- Authors: Vladimir Gligorijević, P. Douglas Renfrew, Tomasz Kościółek, Julia Koehler Leman, Daniel Berenberg, Tommi Vatanen, Chris Chandler, Bryn C. Taylor
 - Source: OpenAlex
 - DOI: 10.1038/s41467-021-23303-9
 - Link: https://doi.org/10.1038/s41467-021-23303-9
@@ -260,7 +260,7 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Using machine learning approaches for multi-omics data analysis: A review**
-- Authors: Parminder Singh Reel, Smarti Reel, Ewan R. Pearson, Emanuele Trucco, Emily E. Jefferson
+- Authors: Parminder Singh Reel, Smarti Reel, Ewan R. Pearson, Emanuele Trucco, Emily Jefferson
 - Source: OpenAlex
 - DOI: 10.1016/j.biotechadv.2021.107739
 - Link: https://doi.org/10.1016/j.biotechadv.2021.107739
