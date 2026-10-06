@@ -260,16 +260,6 @@
     "pdf_url": "https://www.preprints.org/frontend/manuscript/0664468ab417d9b5054f798fbdb47818/download_pub"
   },
   {
-    "title": "Protein Function Analysis through Machine Learning",
-    "year": "2022",
-    "authors": "Chris Avery, John Patterson, Tyler J. Grear, Theodore D. Frater, Donald J. Jacobs",
-    "doi": "10.3390/biom12091246",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.3390/biom12091246",
-    "pdf_url": "https://www.mdpi.com/2218-273X/12/9/1246/pdf?version=1662469264"
-  },
-  {
     "title": "Protein–protein interaction prediction with deep learning: A comprehensive review",
     "year": "2022",
     "authors": "Farzan Soleymani, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski, Davide Spinello",
@@ -278,6 +268,16 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1016/j.csbj.2022.08.070",
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2001037022004044/pdf"
+  },
+  {
+    "title": "Protein Function Analysis through Machine Learning",
+    "year": "2022",
+    "authors": "Chris Avery, John Patterson, Tyler J. Grear, Theodore D. Frater, Donald J. Jacobs",
+    "doi": "10.3390/biom12091246",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.3390/biom12091246",
+    "pdf_url": "https://www.mdpi.com/2218-273X/12/9/1246/pdf?version=1662469264"
   },
   {
     "title": "AI-Driven Deep Learning Techniques in Protein Structure Prediction",
@@ -380,16 +380,6 @@
     "pdf_url": null
   },
   {
-    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
-    "year": "2024",
-    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
-    "doi": "10.1093/bioadv/vbae120",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1093/bioadv/vbae120",
-    "pdf_url": null
-  },
-  {
     "title": "Structure-based protein function prediction using graph convolutional networks",
     "year": "2021",
     "authors": "Vladimir Gligorijević, P. Douglas Renfrew, Tomasz Kościółek, Julia Koehler Leman, Daniel Berenberg, Tommi Vatanen, Chris Chandler, Bryn C. Taylor",
@@ -398,5 +388,15 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1038/s41467-021-23303-9",
     "pdf_url": "https://www.nature.com/articles/s41467-021-23303-9.pdf"
+  },
+  {
+    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
+    "year": "2024",
+    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
+    "doi": "10.1093/bioadv/vbae120",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1093/bioadv/vbae120",
+    "pdf_url": null
   }
 ]

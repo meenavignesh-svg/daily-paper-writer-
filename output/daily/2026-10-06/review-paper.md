@@ -236,18 +236,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/34954608/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Protein Function Analysis through Machine Learning**
-- Authors: Chris Avery, John Patterson, Tyler J. Grear, Theodore D. Frater, Donald J. Jacobs
-- Source: OpenAlex
-- DOI: 10.3390/biom12091246
-- Link: https://doi.org/10.3390/biom12091246
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Protein–protein interaction prediction with deep learning: A comprehensive review**
 - Authors: Farzan Soleymani, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski, Davide Spinello
 - Source: OpenAlex
 - DOI: 10.1016/j.csbj.2022.08.070
 - Link: https://doi.org/10.1016/j.csbj.2022.08.070
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Protein Function Analysis through Machine Learning**
+- Authors: Chris Avery, John Patterson, Tyler J. Grear, Theodore D. Frater, Donald J. Jacobs
+- Source: OpenAlex
+- DOI: 10.3390/biom12091246
+- Link: https://doi.org/10.3390/biom12091246
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Dowker complex based machine learning (DCML) models for protein-ligand binding affinity prediction**
