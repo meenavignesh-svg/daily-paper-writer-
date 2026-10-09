@@ -1,0 +1,402 @@
+[
+  {
+    "title": "AI-Driven Deep Learning Techniques in Protein Structure Prediction.",
+    "year": "2024",
+    "authors": "Chen L, Li Q, Nasif KFA, Xie Y, Deng B, Niu S, Pouriyeh S, Dai Z",
+    "doi": "",
+    "pmid": "39125995",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39125995/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine learning-based reproducible prediction of type 2 diabetes subtypes.",
+    "year": "2024",
+    "authors": "Tanabe H, Sato M, Miyake A, Shimajiri Y, Ojima T, Narita A, Saito H, Tanaka K",
+    "doi": "",
+    "pmid": "39168869",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39168869/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
+    "year": "2026",
+    "authors": "Tran VQ, Nemeth M, Bartie LJ, Chandrasekaran SS, Fanton A, Moon HC, Hie BL, Konermann S",
+    "doi": "",
+    "pmid": "41712694",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41712694/",
+    "pdf_url": ""
+  },
+  {
+    "title": "AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution.",
+    "year": "2024",
+    "authors": "Schade AE, Perurena N, Yang Y, Rodriguez CL, Krishnan A, Gardner A, Loi P, Xu Y",
+    "doi": "",
+    "pmid": "39385030",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39385030/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine Learning Approaches for Metalloproteins.",
+    "year": "2022",
+    "authors": "Yu Y, Wang R, Teo RD",
+    "doi": "",
+    "pmid": "35209064",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35209064/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Multi-Omics Integration With Machine Learning Identified Early Diabetic Retinopathy, Diabetic Macula Edema and Anti-VEGF Treatment Response.",
+    "year": "2024",
+    "authors": "Pang Y, Luo C, Zhang Q, Zhang X, Liao N, Ji Y, Mi L, Gan Y",
+    "doi": "",
+    "pmid": "39671223",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39671223/",
+    "pdf_url": ""
+  },
+  {
+    "title": "LCN2 drives ferroptosis-associated ischemia-reperfusion injury after renal transplantation: integrated machine learning and in vivo validation.",
+    "year": "2025",
+    "authors": "Wu Z, Yu B, He Q, Huang C",
+    "doi": "",
+    "pmid": "41205031",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41205031/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Flavonoids from Pterogyne nitens as Zika virus NS2B-NS3 protease inhibitors.",
+    "year": "2021",
+    "authors": "Lima CS, Mottin M, de Assis LR, Mesquita NCMR, Sousa BKP, Coimbra LD, Santos KB, Zorn KM",
+    "doi": "",
+    "pmid": "33636437",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33636437/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Predicting response and survival of lung adenocarcinoma under anti-programmed death-1 therapy using biological deep learning.",
+    "year": "2025",
+    "authors": "Wang Y, Zhang L, Xie H, Wang L, Wang Y, Li S, He J, Wang M",
+    "doi": "",
+    "pmid": "40971820",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40971820/",
+    "pdf_url": ""
+  },
+  {
+    "title": "AI-Based Protein Structure Prediction in Drug Discovery: Impacts and Challenges.",
+    "year": "2022",
+    "authors": "Schauperl M, Denny RA",
+    "doi": "",
+    "pmid": "35727311",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35727311/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Cell-to-cell and type-to-type heterogeneity of signaling networks: insights from the crowd.",
+    "year": "2021",
+    "authors": "Gabor A, Tognetti M, Driessen A, Tanevski J, Guo B, Cao W, Shen H, Yu T",
+    "doi": "",
+    "pmid": "34661974",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34661974/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Discovery of natural RORγt inhibitor using machine learning, virtual screening, and in vivo validation.",
+    "year": "2026",
+    "authors": "Yoo H, Han SJ, Lee JE, Cho C, Hong D, Jeong B, Kim S, Jung GY",
+    "doi": "",
+    "pmid": "40915561",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40915561/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Impact of between-tissue differences on pan-cancer predictions of drug sensitivity.",
+    "year": "2021",
+    "authors": "Lloyd JP, Soellner MB, Merajver SD, Li JZ",
+    "doi": "",
+    "pmid": "33630864",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33630864/",
+    "pdf_url": ""
+  },
+  {
+    "title": "An end-to-end heterogeneous graph representation learning-based framework for drug-target interaction prediction.",
+    "year": "2021",
+    "authors": "Peng J, Wang Y, Guan J, Li J, Han R, Hao J, Wei Z, Shang X",
+    "doi": "",
+    "pmid": "33517357",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33517357/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Deciphering the mechanism of baicalein in cervical cancer via bioinformatics, machine learning and computational simulations: PIM1 and CDK2 are key target proteins.",
+    "year": "2025",
+    "authors": "Wang S, Liu C, Ye D, Qi J, Xing Y, Wang J, Fan X, Li X",
+    "doi": "",
+    "pmid": "40339869",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40339869/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Artificial intelligence based methods for hot spot prediction.",
+    "year": "2022",
+    "authors": "Ovek D, Abali Z, Zeylan ME, Keskin O, Gursoy A, Tuncbag N",
+    "doi": "",
+    "pmid": "34954608",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34954608/",
+    "pdf_url": ""
+  },
+  {
+    "title": "A nomogram for the prediction of response to anti-CGRP mAbs: the CGRP score.",
+    "year": "2025",
+    "authors": "Romozzi M, Lokhandwala A, Vollono C, García-Azorín D, Vigani G, De Cesaris F, Altamura C, Vernieri F",
+    "doi": "",
+    "pmid": "40890582",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40890582/",
+    "pdf_url": ""
+  },
+  {
+    "title": "AI-Driven Variant Annotation for Precision Oncology in Breast Cancer.",
+    "year": "2025",
+    "authors": "Shukla K, Wang Y, Spanheimer PM, Brunk E",
+    "doi": "",
+    "pmid": "41127930",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41127930/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine Learning Methods in Protein-Protein Docking.",
+    "year": "2024",
+    "authors": "Michalik I, Kuder KJ",
+    "doi": "",
+    "pmid": "38987466",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38987466/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Hierarchical graph learning for protein-protein interaction.",
+    "year": "2023",
+    "authors": "Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y",
+    "doi": "",
+    "pmid": "36841846",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36841846/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Deep learning methods for protein function prediction",
+    "year": "2024",
+    "authors": "Frimpong Boadu, Ahhyun Lee, Jianlin Jack Cheng",
+    "doi": "10.1002/pmic.202300471",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1002/pmic.202300471",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pmic.202300471"
+  },
+  {
+    "title": "AI and Machine Learning in Biology: From Genes to Proteins",
+    "year": "2025",
+    "authors": "Zaw Myo Hein, Dhanyashri Guruparan, Blaire Okunsai, Che Mohd Nasril Che Mohd Nassir, Muhammad Danial Che Ramli, Suresh Kumar",
+    "doi": "10.3390/biology14101453",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.3390/biology14101453",
+    "pdf_url": "https://www.mdpi.com/2079-7737/14/10/1453/pdf?version=1760973033"
+  },
+  {
+    "title": "Machine Learning-Guided Protein Engineering",
+    "year": "2023",
+    "authors": "Petr Kouba, Pavel Kohout, Faraneh Haddadi, Anton Bushuiev, Raman Samusevich, Jiří Sedlář, Jiřı́ Damborský, Tomáš Pluskal",
+    "doi": "10.1021/acscatal.3c02743",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1021/acscatal.3c02743",
+    "pdf_url": null
+  },
+  {
+    "title": "Modern machine learning methods for protein property prediction",
+    "year": "2025",
+    "authors": "Arjun Dosajh, Prakul Agrawal, Prathit Chatterjee, U. Deva Priyakumar",
+    "doi": "10.1016/j.sbi.2025.102990",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1016/j.sbi.2025.102990",
+    "pdf_url": null
+  },
+  {
+    "title": "Protein–protein interaction prediction with deep learning: A comprehensive review",
+    "year": "2022",
+    "authors": "Farzan Soleymani, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski, Davide Spinello",
+    "doi": "10.1016/j.csbj.2022.08.070",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1016/j.csbj.2022.08.070",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2001037022004044/pdf"
+  },
+  {
+    "title": "Machine Learning for Studying Plant Protein Function and Evolution",
+    "year": "2026",
+    "authors": "Ankan Das, Dibyendu Seth, Bodhisattya Pal, Nidhi, Sandip Debnath",
+    "doi": "10.1201/9781003545781-20",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1201/9781003545781-20",
+    "pdf_url": null
+  },
+  {
+    "title": "Protein Function Analysis through Machine Learning",
+    "year": "2022",
+    "authors": "Chris Avery, John Patterson, Tyler J. Grear, Theodore D. Frater, Donald J. Jacobs",
+    "doi": "10.3390/biom12091246",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.3390/biom12091246",
+    "pdf_url": "https://www.mdpi.com/2218-273X/12/9/1246/pdf?version=1662469264"
+  },
+  {
+    "title": "AI-Driven Deep Learning Techniques in Protein Structure Prediction",
+    "year": "2024",
+    "authors": "Lingtao Chen, Qiaomu Li, Kazi Fahim Ahmad Nasif, Ying Xie, Bobin Deng, Shuteng Niu, Seyedamin Pouriyeh, Zhiyu Dai",
+    "doi": "10.3390/ijms25158426",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.3390/ijms25158426",
+    "pdf_url": null
+  },
+  {
+    "title": "A REVIEW ON EXPLAINABLE AI IN ProTEIN FUNCTION",
+    "year": "2025",
+    "authors": "Aastha Katiyar",
+    "doi": "10.22541/au.174912536.68729526/v1",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.22541/au.174912536.68729526/v1",
+    "pdf_url": "https://www.authorea.com/doi/pdf/10.22541/au.174912536.68729526/v1"
+  },
+  {
+    "title": "Dowker complex based machine learning (DCML) models for protein-ligand binding affinity prediction",
+    "year": "2022",
+    "authors": "Xiang Liu, Huitao Feng, Jie Wu, Kelin Xia",
+    "doi": "10.1371/journal.pcbi.1009943",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1371/journal.pcbi.1009943",
+    "pdf_url": null
+  },
+  {
+    "title": "Machine Learning-Assisted Protein Structure Prediction: An AI Approach for Biochemical Insights",
+    "year": "2024",
+    "authors": "Radha Mahendran, Akriti Dogra, Dinesh Mendhe, S. B G Tilak Babu, Shriniket Dixit, Surya Pratap Singh",
+    "doi": "10.1109/iconstem60960.2024.10568895",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1109/iconstem60960.2024.10568895",
+    "pdf_url": null
+  },
+  {
+    "title": "AI-Driven Functional Protein Design: Machine Learning Approaches for Screening and Optimization",
+    "year": "2025",
+    "authors": "Yunze Jiang",
+    "doi": "10.1145/3778450.3778490",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1145/3778450.3778490",
+    "pdf_url": null
+  },
+  {
+    "title": "XGboost-Ampy: Identification of AMPylation Protein Function Prediction Using Machine Learning",
+    "year": "2022",
+    "authors": "Zar Nawab Khan Swati, Ali Ghulam, Muhammad Sohail, Jawad Usman Arshed, Rahu Sikander, Muhammad Shahid Malik, Nauman Khan",
+    "doi": "10.21015/vtcs.v10i2.1347",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.21015/vtcs.v10i2.1347",
+    "pdf_url": "https://vfast.org/journals/index.php/VTCS/article/download/1347/1116"
+  },
+  {
+    "title": "Leveraging Gemma 4 Large Language Model for Protein Function Prediction and Interpretability Application of AI Models for Protein Function Prediction from Amino Acid Sequences",
+    "year": "2026",
+    "authors": "Trinh Quang Minh, Ngo Thi Lan",
+    "doi": "10.38124/ijisrt/26apr247",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.38124/ijisrt/26apr247",
+    "pdf_url": null
+  },
+  {
+    "title": "Protein function prediction as approximate semantic entailment",
+    "year": "2024",
+    "authors": "Maxat Kulmanov, Francisco J. Guzmán‐Vega, Paula D Duek, Lydie Lane, Stefan T. Arold, Robert Hoehndorf",
+    "doi": "10.1038/s42256-024-00795-w",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s42256-024-00795-w",
+    "pdf_url": "https://www.nature.com/articles/s42256-024-00795-w.pdf"
+  },
+  {
+    "title": "Structure-based protein function prediction using graph convolutional networks",
+    "year": "2021",
+    "authors": "Vladimir Gligorijević, P. Douglas Renfrew, Tomasz Kościółek, Julia Koehler Leman, Daniel Berenberg, Tommi Vatanen, Chris Chandler, Bryn C. Taylor",
+    "doi": "10.1038/s41467-021-23303-9",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s41467-021-23303-9",
+    "pdf_url": "https://www.nature.com/articles/s41467-021-23303-9.pdf"
+  },
+  {
+    "title": "Advances in AI and machine learning for predictive medicine",
+    "year": "2024",
+    "authors": "Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda",
+    "doi": "10.1038/s10038-024-01231-y",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s10038-024-01231-y",
+    "pdf_url": "https://www.nature.com/articles/s10038-024-01231-y.pdf"
+  },
+  {
+    "title": "Prediction of Diabetes Empowered With Fused Machine Learning",
+    "year": "2022",
+    "authors": "Usama Ahmed, Ghassan F. Issa, Muhammad Adnan Khan, Shabib Aftab, Muhammad Farhan Khan, Raed A. Said, Taher M. Ghazal, Munir Ahmad",
+    "doi": "10.1109/access.2022.3142097",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1109/access.2022.3142097",
+    "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09676634.pdf"
+  },
+  {
+    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
+    "year": "2024",
+    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
+    "doi": "10.1093/bioadv/vbae120",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1093/bioadv/vbae120",
+    "pdf_url": null
+  },
+  {
+    "title": "Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation",
+    "year": "2022",
+    "authors": "Xiang Liu, Huitao Feng, Jie Wu, Kelin Xia",
+    "doi": "10.1021/acs.jcim.2c00580",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1021/acs.jcim.2c00580",
+    "pdf_url": null
+  }
+]
