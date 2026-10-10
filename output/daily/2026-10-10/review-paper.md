@@ -185,13 +185,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 
 ### 2023
 
-**Hierarchical graph learning for protein-protein interaction.**
-- Authors: Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y
-- Source: PubMed
-- PMID: 36841846
-- Link: https://pubmed.ncbi.nlm.nih.gov/36841846/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Machine Learning-Guided Protein Engineering**
 - Authors: Petr Kouba, Pavel Kohout, Faraneh Haddadi, Anton Bushuiev, Raman Samusevich, Jiří Sedlář, Jiřı́ Damborský, Tomáš Pluskal
 - Source: OpenAlex
@@ -265,6 +258,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 ### 2021
+
+**TSSF-hERG: A machine-learning-based hERG potassium channel-specific scoring function for chemical cardiotoxicity prediction.**
+- Authors: Meng J, Zhang L, Wang L, Li S, Xie D, Zhang Y, Liu H
+- Source: PubMed
+- PMID: 34757159
+- Link: https://pubmed.ncbi.nlm.nih.gov/34757159/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Flavonoids from Pterogyne nitens as Zika virus NS2B-NS3 protease inhibitors.**
 - Authors: Lima CS, Mottin M, de Assis LR, Mesquita NCMR, Sousa BKP, Coimbra LD, Santos KB, Zorn KM

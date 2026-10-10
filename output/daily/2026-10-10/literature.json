@@ -50,6 +50,16 @@
     "pdf_url": ""
   },
   {
+    "title": "TSSF-hERG: A machine-learning-based hERG potassium channel-specific scoring function for chemical cardiotoxicity prediction.",
+    "year": "2021",
+    "authors": "Meng J, Zhang L, Wang L, Li S, Xie D, Zhang Y, Liu H",
+    "doi": "",
+    "pmid": "34757159",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34757159/",
+    "pdf_url": ""
+  },
+  {
     "title": "Multi-Omics Integration With Machine Learning Identified Early Diabetic Retinopathy, Diabetic Macula Edema and Anti-VEGF Treatment Response.",
     "year": "2024",
     "authors": "Pang Y, Luo C, Zhang Q, Zhang X, Liao N, Ji Y, Mi L, Gan Y",
@@ -190,16 +200,6 @@
     "pdf_url": ""
   },
   {
-    "title": "Hierarchical graph learning for protein-protein interaction.",
-    "year": "2023",
-    "authors": "Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y",
-    "doi": "",
-    "pmid": "36841846",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36841846/",
-    "pdf_url": ""
-  },
-  {
     "title": "Deep learning methods for protein function prediction",
     "year": "2024",
     "authors": "Frimpong Boadu, Ahhyun Lee, Jianlin Jack Cheng",
@@ -310,16 +310,6 @@
     "pdf_url": null
   },
   {
-    "title": "AI-Driven Functional Protein Design: Machine Learning Approaches for Screening and Optimization",
-    "year": "2025",
-    "authors": "Yunze Jiang",
-    "doi": "10.1145/3778450.3778490",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1145/3778450.3778490",
-    "pdf_url": null
-  },
-  {
     "title": "Protein function prediction as approximate semantic entailment",
     "year": "2024",
     "authors": "Maxat Kulmanov, Francisco J. Guzmán‐Vega, Paula D Duek, Lydie Lane, Stefan T. Arold, Robert Hoehndorf",
@@ -328,6 +318,16 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1038/s42256-024-00795-w",
     "pdf_url": "https://www.nature.com/articles/s42256-024-00795-w.pdf"
+  },
+  {
+    "title": "AI-Driven Functional Protein Design: Machine Learning Approaches for Screening and Optimization",
+    "year": "2025",
+    "authors": "Yunze Jiang",
+    "doi": "10.1145/3778450.3778490",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1145/3778450.3778490",
+    "pdf_url": null
   },
   {
     "title": "XGboost-Ampy: Identification of AMPylation Protein Function Prediction Using Machine Learning",
@@ -380,16 +380,6 @@
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09676634.pdf"
   },
   {
-    "title": "Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation",
-    "year": "2022",
-    "authors": "Xiang Liu, Huitao Feng, Jie Wu, Kelin Xia",
-    "doi": "10.1021/acs.jcim.2c00580",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1021/acs.jcim.2c00580",
-    "pdf_url": null
-  },
-  {
     "title": "Leveraging machine learning models for peptide–protein interaction prediction",
     "year": "2024",
     "authors": "Yin Song, Xuenan Mi, Diwakar Shukla",
@@ -398,5 +388,15 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1039/d3cb00208j",
     "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/cb/d3cb00208j"
+  },
+  {
+    "title": "Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation",
+    "year": "2022",
+    "authors": "Xiang Liu, Huitao Feng, Jie Wu, Kelin Xia",
+    "doi": "10.1021/acs.jcim.2c00580",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1021/acs.jcim.2c00580",
+    "pdf_url": null
   }
 ]
