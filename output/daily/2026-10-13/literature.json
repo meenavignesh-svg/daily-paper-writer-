@@ -1,5 +1,25 @@
 [
   {
+    "title": "AI-Driven Deep Learning Techniques in Protein Structure Prediction.",
+    "year": "2024",
+    "authors": "Chen L, Li Q, Nasif KFA, Xie Y, Deng B, Niu S, Pouriyeh S, Dai Z",
+    "doi": "",
+    "pmid": "39125995",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39125995/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine Learning Approaches for Metalloproteins.",
+    "year": "2022",
+    "authors": "Yu Y, Wang R, Teo RD",
+    "doi": "",
+    "pmid": "35209064",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35209064/",
+    "pdf_url": ""
+  },
+  {
     "title": "Machine learning-based reproducible prediction of type 2 diabetes subtypes.",
     "year": "2024",
     "authors": "Tanabe H, Sato M, Miyake A, Shimajiri Y, Ojima T, Narita A, Saito H, Tanaka K",
@@ -7,6 +27,16 @@
     "pmid": "39168869",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39168869/",
+    "pdf_url": ""
+  },
+  {
+    "title": "AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution.",
+    "year": "2024",
+    "authors": "Schade AE, Perurena N, Yang Y, Rodriguez CL, Krishnan A, Gardner A, Loi P, Xu Y",
+    "doi": "",
+    "pmid": "39385030",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39385030/",
     "pdf_url": ""
   },
   {
@@ -20,143 +50,53 @@
     "pdf_url": ""
   },
   {
-    "title": "Predicting response and survival of lung adenocarcinoma under anti-programmed death-1 therapy using biological deep learning.",
+    "title": "Computational modelling of olfactory receptors.",
     "year": "2025",
-    "authors": "Wang Y, Zhang L, Xie H, Wang L, Wang Y, Li S, He J, Wang M",
+    "authors": "Odoemelam CS, Steuber V, Schmuker M",
     "doi": "",
-    "pmid": "40971820",
+    "pmid": "40441539",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40971820/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40441539/",
     "pdf_url": ""
   },
   {
-    "title": "Artificial intelligence based methods for hot spot prediction.",
-    "year": "2022",
-    "authors": "Ovek D, Abali Z, Zeylan ME, Keskin O, Gursoy A, Tuncbag N",
+    "title": "AI: A transformative opportunity in cell biology.",
+    "year": "2024",
+    "authors": "Carr A, Cool J, Karaletsos T, Li D, Lowe AR, Otte S, Schmid SL",
     "doi": "",
-    "pmid": "34954608",
+    "pmid": "39621362",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34954608/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39621362/",
     "pdf_url": ""
   },
   {
-    "title": "Hierarchical graph learning for protein-protein interaction.",
-    "year": "2023",
-    "authors": "Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y",
-    "doi": "",
-    "pmid": "36841846",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36841846/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Machine Learning Analysis of Cocaine Addiction Informed by DAT, SERT, and NET-Based Interactome Networks.",
-    "year": "2022",
-    "authors": "Feng H, Gao K, Chen D, Shen L, Robison AJ, Ellsworth E, Wei GW",
-    "doi": "",
-    "pmid": "35294204",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/35294204/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Real-world clinical multi-omics analyses reveal bifurcation of ER-independent and ER-dependent drug resistance to CDK4/6 inhibitors.",
+    "title": "Computational prediction of protein functional annotations.",
     "year": "2025",
-    "authors": "Kan Z, Wen J, Bonato V, Webster J, Yang W, Ivanov V, Kim KH, Roh W",
+    "authors": "Kulmanov M, Hoehndorf R",
     "doi": "",
-    "pmid": "39843429",
+    "pmid": "40728605",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39843429/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40728605/",
     "pdf_url": ""
   },
   {
-    "title": "ASPIRER: a new computational approach for identifying non-classical secreted proteins based on deep learning.",
-    "year": "2022",
-    "authors": "Wang X, Li F, Xu J, Rong J, Webb GI, Ge Z, Li J, Song J",
-    "doi": "",
-    "pmid": "35176756",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/35176756/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Interpreting machine learning models to investigate circadian regulation and facilitate exploration of clock function.",
-    "year": "2021",
-    "authors": "Gardiner LJ, Rusholme-Pilcher R, Colmer J, Rees H, Crescente JM, Carrieri AP, Duncan S, Pyzer-Knapp EO",
-    "doi": "",
-    "pmid": "34353905",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34353905/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Radiomic Detection of EGFR Mutations in NSCLC.",
-    "year": "2021",
-    "authors": "Rossi G, Barabino E, Fedeli A, Ficarra G, Coco S, Russo A, Adamo V, Buemi F",
-    "doi": "",
-    "pmid": "33148663",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33148663/",
-    "pdf_url": ""
-  },
-  {
-    "title": "DeepVF: a deep learning-based hybrid framework for identifying virulence factors using the stacking strategy.",
-    "year": "2021",
-    "authors": "Xie R, Li J, Wang J, Dai W, Leier A, Marquez-Lago TT, Akutsu T, Lithgow T",
-    "doi": "",
-    "pmid": "32599617",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32599617/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Towards the Interpretability of Machine Learning Predictions for Medical Applications Targeting Personalised Therapies: A Cancer Case Survey.",
-    "year": "2021",
-    "authors": "Banegas-Luna AJ, Peña-García J, Iftene A, Guadagni F, Ferroni P, Scarpato N, Zanzotto FM, Bueno-Crespo A",
-    "doi": "",
-    "pmid": "33922356",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33922356/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Longitudinal single-cell RNA model aids prediction of EGFR-TKI resistance.",
+    "title": "Targeting high-risk multiple myeloma genotypes with optimized anti-CD70 CAR T cells.",
     "year": "2025",
-    "authors": "Hou G, Lu Z, Zeng D, Chen Q, Cheng S, Song B",
+    "authors": "Kasap C, Izgutdina A, Patiño-Escobar B, Kang AS, Chilakapati N, Akagi N, Manoj A, Johnson H",
     "doi": "",
-    "pmid": "40739818",
+    "pmid": "40359480",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40739818/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40359480/",
     "pdf_url": ""
   },
   {
-    "title": "Multi-Target In Silico Prediction of Inhibitors for Mitogen-Activated Protein Kinase-Interacting Kinases.",
-    "year": "2021",
-    "authors": "Halder AK, Cordeiro MNDS",
+    "title": "T cell receptor specificity landscape revealed through de novo peptide design.",
+    "year": "2025",
+    "authors": "Visani GM, Pun MN, Minervina AA, Bradley P, Thomas PG, Nourmohammad A",
     "doi": "",
-    "pmid": "34827668",
+    "pmid": "41100668",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34827668/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Machine learning-driven drug repurposing for HER2-positive breast cancer.",
-    "year": "2026",
-    "authors": "Dinesh BGH, Ganjipete S, Kumar BS, Ammunje DN, Kunjiappan S, Seetharaman PK, Ramar M, Chidambaram K",
-    "doi": "",
-    "pmid": "41942578",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41942578/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Learning spatial structures of proteins improves protein-protein interaction prediction.",
-    "year": "2022",
-    "authors": "Song B, Luo X, Luo X, Liu Y, Niu Z, Zeng X",
-    "doi": "",
-    "pmid": "35018418",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/35018418/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41100668/",
     "pdf_url": ""
   },
   {
@@ -170,33 +110,93 @@
     "pdf_url": ""
   },
   {
-    "title": "Machine learning prediction of future amyloid beta positivity in amyloid-negative individuals.",
+    "title": "Overview of AlphaFold2 and breakthroughs in overcoming its limitations.",
     "year": "2024",
-    "authors": "Moradi E, Prakash M, Hall A, Solomon A, Strange B, Tohka J, Alzheimer’s Disease Neuroimaging Initiative",
+    "authors": "Wang L, Wen Z, Liu SW, Zhang L, Finley C, Lee HJ, Fan HS",
     "doi": "",
-    "pmid": "38414035",
+    "pmid": "38761500",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38414035/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38761500/",
     "pdf_url": ""
   },
   {
-    "title": "Construction of IRAK4 inhibitor activity prediction model based on machine learning.",
-    "year": "2024",
-    "authors": "Zhao Y, Wan Q, He X",
+    "title": "Novel machine learning approaches revolutionize protein knowledge.",
+    "year": "2023",
+    "authors": "Bordin N, Dallago C, Heinzinger M, Kim S, Littmann M, Rauer C, Steinegger M, Rost B",
     "doi": "",
-    "pmid": "38970641",
+    "pmid": "36504138",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38970641/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36504138/",
     "pdf_url": ""
   },
   {
-    "title": "F-CPI: A Multimodal Deep Learning Approach for Predicting Compound Bioactivity Changes Induced by Fluorine Substitution.",
+    "title": "Hierarchical graph learning for protein-protein interaction.",
+    "year": "2023",
+    "authors": "Gao Z, Jiang C, Zhang J, Jiang X, Li L, Zhao P, Yang H, Huang Y",
+    "doi": "",
+    "pmid": "36841846",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36841846/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Recent advances in AI-driven protein-ligand interaction predictions.",
     "year": "2025",
-    "authors": "Zhang Q, Yin W, Chen X, Zhou A, Zhang G, Zhao Z, Li Z, Zhang Y",
+    "authors": "Sim J, Kim D, Kim B, Choi J, Lee J",
     "doi": "",
-    "pmid": "39707149",
+    "pmid": "39999605",
     "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39707149/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39999605/",
+    "pdf_url": ""
+  },
+  {
+    "title": "A nomogram for the prediction of response to anti-CGRP mAbs: the CGRP score.",
+    "year": "2025",
+    "authors": "Romozzi M, Lokhandwala A, Vollono C, García-Azorín D, Vigani G, De Cesaris F, Altamura C, Vernieri F",
+    "doi": "",
+    "pmid": "40890582",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40890582/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine Learning-Based Virtual Screening for the Identification of Novel CDK-9 Inhibitors.",
+    "year": "2025",
+    "authors": "Piazza L, Poles C, Bononi G, Granchi C, Di Stefano M, Poli G, Giordano A, Medugno A",
+    "doi": "",
+    "pmid": "41594554",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41594554/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Machine learning-driven discovery of NSC828779 as a multi-mechanistic NLRP3 inflammasome inhibitor for inflammatory diseases.",
+    "year": "2025",
+    "authors": "Tang SL, Sumitra MR, Chen LC, Liu FC, Hsu HL, Kuo YC, Ansar M, Huang SL",
+    "doi": "",
+    "pmid": "40987012",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40987012/",
+    "pdf_url": ""
+  },
+  {
+    "title": "Revolutionizing Molecular Design for Innovative Therapeutic Applications through Artificial Intelligence.",
+    "year": "2024",
+    "authors": "Son A, Park J, Kim W, Yoon Y, Lee S, Park Y, Kim H",
+    "doi": "",
+    "pmid": "39407556",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39407556/",
+    "pdf_url": ""
+  },
+  {
+    "title": "AI-Driven Variant Annotation for Precision Oncology in Breast Cancer.",
+    "year": "2025",
+    "authors": "Shukla K, Wang Y, Spanheimer PM, Brunk E",
+    "doi": "",
+    "pmid": "41127930",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41127930/",
     "pdf_url": ""
   },
   {
