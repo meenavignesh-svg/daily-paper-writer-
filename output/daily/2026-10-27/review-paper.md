@@ -18,6 +18,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/41712694/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Thrombopoietin receptor agonists in immune thrombocytopenia: a comparative review of mechanisms, efficacy, and the future of personalized management.**
+- Authors: Andrès E, Jannot X, Terrade JE, Lorenzo-Villalba N
+- Source: PubMed
+- PMID: 41875247
+- Link: https://pubmed.ncbi.nlm.nih.gov/41875247/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 **Discovery of natural RORγt inhibitor using machine learning, virtual screening, and in vivo validation.**
 - Authors: Yoo H, Han SJ, Lee JE, Cho C, Hong D, Jeong B, Kim S, Jung GY
 - Source: PubMed
@@ -148,13 +155,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/38987466/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Recent Advances in Protein Folding Pathway Prediction through Computational Methods.**
-- Authors: Zhao K, Liang F, Xia Y, Hou M, Zhang G
-- Source: PubMed
-- PMID: 37828669
-- Link: https://pubmed.ncbi.nlm.nih.gov/37828669/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Deep learning methods for protein function prediction**
 - Authors: Frimpong Boadu, Ahhyun Lee, Jianlin Jack Cheng
 - Source: OpenAlex
@@ -183,18 +183,18 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1038/s42256-024-00795-w
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Improving protein function prediction by learning and integrating representations of protein sequences and function labels**
-- Authors: Frimpong Boadu, Jianlin Jack Cheng
-- Source: OpenAlex
-- DOI: 10.1093/bioadv/vbae120
-- Link: https://doi.org/10.1093/bioadv/vbae120
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Advances in AI and machine learning for predictive medicine**
 - Authors: Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda
 - Source: OpenAlex
 - DOI: 10.1038/s10038-024-01231-y
 - Link: https://doi.org/10.1038/s10038-024-01231-y
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
+**Improving protein function prediction by learning and integrating representations of protein sequences and function labels**
+- Authors: Frimpong Boadu, Jianlin Jack Cheng
+- Source: OpenAlex
+- DOI: 10.1093/bioadv/vbae120
+- Link: https://doi.org/10.1093/bioadv/vbae120
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Leveraging machine learning models for peptide–protein interaction prediction**

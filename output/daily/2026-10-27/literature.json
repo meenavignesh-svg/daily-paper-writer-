@@ -40,6 +40,16 @@
     "pdf_url": ""
   },
   {
+    "title": "Thrombopoietin receptor agonists in immune thrombocytopenia: a comparative review of mechanisms, efficacy, and the future of personalized management.",
+    "year": "2026",
+    "authors": "Andrès E, Jannot X, Terrade JE, Lorenzo-Villalba N",
+    "doi": "",
+    "pmid": "41875247",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41875247/",
+    "pdf_url": ""
+  },
+  {
     "title": "Recent advances in AI-driven protein-ligand interaction predictions.",
     "year": "2025",
     "authors": "Sim J, Kim D, Kim B, Choi J, Lee J",
@@ -190,16 +200,6 @@
     "pdf_url": ""
   },
   {
-    "title": "Recent Advances in Protein Folding Pathway Prediction through Computational Methods.",
-    "year": "2024",
-    "authors": "Zhao K, Liang F, Xia Y, Hou M, Zhang G",
-    "doi": "",
-    "pmid": "37828669",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37828669/",
-    "pdf_url": ""
-  },
-  {
     "title": "Deep learning methods for protein function prediction",
     "year": "2024",
     "authors": "Frimpong Boadu, Ahhyun Lee, Jianlin Jack Cheng",
@@ -240,6 +240,16 @@
     "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2001037022004044/pdf"
   },
   {
+    "title": "Machine Learning for Studying Plant Protein Function and Evolution",
+    "year": "2026",
+    "authors": "Ankan Das, Dibyendu Seth, Bodhisattya Pal, Nidhi, Sandip Debnath",
+    "doi": "10.1201/9781003545781-20",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1201/9781003545781-20",
+    "pdf_url": null
+  },
+  {
     "title": "AI-Driven Deep Learning Techniques in Protein Structure Prediction",
     "year": "2024",
     "authors": "Lingtao Chen, Qiaomu Li, Kazi Fahim Ahmad Nasif, Ying Xie, Bobin Deng, Shuteng Niu, Seyedamin Pouriyeh, Zhiyu Dai",
@@ -258,16 +268,6 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.3390/biom12091246",
     "pdf_url": "https://www.mdpi.com/2218-273X/12/9/1246/pdf?version=1662469264"
-  },
-  {
-    "title": "Machine Learning for Studying Plant Protein Function and Evolution",
-    "year": "2026",
-    "authors": "Ankan Das, Dibyendu Seth, Bodhisattya Pal, Nidhi, Sandip Debnath",
-    "doi": "10.1201/9781003545781-20",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1201/9781003545781-20",
-    "pdf_url": null
   },
   {
     "title": "A REVIEW ON EXPLAINABLE AI IN ProTEIN FUNCTION",
@@ -310,16 +310,6 @@
     "pdf_url": null
   },
   {
-    "title": "Protein function prediction as approximate semantic entailment",
-    "year": "2024",
-    "authors": "Maxat Kulmanov, Francisco J. Guzmán‐Vega, Paula D Duek, Lydie Lane, Stefan T. Arold, Robert Hoehndorf",
-    "doi": "10.1038/s42256-024-00795-w",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1038/s42256-024-00795-w",
-    "pdf_url": "https://www.nature.com/articles/s42256-024-00795-w.pdf"
-  },
-  {
     "title": "Leveraging Gemma 4 Large Language Model for Protein Function Prediction and Interpretability Application of AI Models for Protein Function Prediction from Amino Acid Sequences",
     "year": "2026",
     "authors": "Trinh Quang Minh, Ngo Thi Lan",
@@ -340,6 +330,16 @@
     "pdf_url": "https://vfast.org/journals/index.php/VTCS/article/download/1347/1116"
   },
   {
+    "title": "Protein function prediction as approximate semantic entailment",
+    "year": "2024",
+    "authors": "Maxat Kulmanov, Francisco J. Guzmán‐Vega, Paula D Duek, Lydie Lane, Stefan T. Arold, Robert Hoehndorf",
+    "doi": "10.1038/s42256-024-00795-w",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1038/s42256-024-00795-w",
+    "pdf_url": "https://www.nature.com/articles/s42256-024-00795-w.pdf"
+  },
+  {
     "title": "Structure-based protein function prediction using graph convolutional networks",
     "year": "2021",
     "authors": "Vladimir Gligorijević, P. Douglas Renfrew, Tomasz Kościółek, Julia Koehler Leman, Daniel Berenberg, Tommi Vatanen, Chris Chandler, Bryn C. Taylor",
@@ -350,14 +350,14 @@
     "pdf_url": "https://www.nature.com/articles/s41467-021-23303-9.pdf"
   },
   {
-    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
+    "title": "Advances in AI and machine learning for predictive medicine",
     "year": "2024",
-    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
-    "doi": "10.1093/bioadv/vbae120",
+    "authors": "Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda",
+    "doi": "10.1038/s10038-024-01231-y",
     "pmid": "",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1093/bioadv/vbae120",
-    "pdf_url": null
+    "url": "https://doi.org/10.1038/s10038-024-01231-y",
+    "pdf_url": "https://www.nature.com/articles/s10038-024-01231-y.pdf"
   },
   {
     "title": "Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation",
@@ -380,14 +380,14 @@
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09676634.pdf"
   },
   {
-    "title": "Advances in AI and machine learning for predictive medicine",
+    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
     "year": "2024",
-    "authors": "Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda",
-    "doi": "10.1038/s10038-024-01231-y",
+    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
+    "doi": "10.1093/bioadv/vbae120",
     "pmid": "",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1038/s10038-024-01231-y",
-    "pdf_url": "https://www.nature.com/articles/s10038-024-01231-y.pdf"
+    "url": "https://doi.org/10.1093/bioadv/vbae120",
+    "pdf_url": null
   },
   {
     "title": "Leveraging machine learning models for peptide–protein interaction prediction",
