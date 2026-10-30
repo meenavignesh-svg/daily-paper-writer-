@@ -100,6 +100,16 @@
     "pdf_url": ""
   },
   {
+    "title": "DeepTraSynergy: drug combinations using multimodal deep learning with transformers.",
+    "year": "2023",
+    "authors": "Rafiei F, Zeraati H, Abbasi K, Ghasemi JB, Parsaeian M, Masoudi-Nejad A",
+    "doi": "",
+    "pmid": "37467066",
+    "source": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37467066/",
+    "pdf_url": ""
+  },
+  {
     "title": "Deciphering the mechanism of baicalein in cervical cancer via bioinformatics, machine learning and computational simulations: PIM1 and CDK2 are key target proteins.",
     "year": "2025",
     "authors": "Wang S, Liu C, Ye D, Qi J, Xing Y, Wang J, Fan X, Li X",
@@ -187,16 +197,6 @@
     "pmid": "39818814",
     "source": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39818814/",
-    "pdf_url": ""
-  },
-  {
-    "title": "Systematic Multi-Target QSAR Benchmarking: Machine Learning Algorithms, Molecular Descriptors, and Validation.",
-    "year": "2026",
-    "authors": "Alshehade SA, Al Jabal G, Jebril IH",
-    "doi": "",
-    "pmid": "42300227",
-    "source": "PubMed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42300227/",
     "pdf_url": ""
   },
   {
@@ -360,16 +360,6 @@
     "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09676634.pdf"
   },
   {
-    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
-    "year": "2024",
-    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
-    "doi": "10.1093/bioadv/vbae120",
-    "pmid": "",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1093/bioadv/vbae120",
-    "pdf_url": null
-  },
-  {
     "title": "Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation",
     "year": "2022",
     "authors": "Xiang Liu, Huitao Feng, Jie Wu, Kelin Xia",
@@ -380,14 +370,14 @@
     "pdf_url": null
   },
   {
-    "title": "Leveraging machine learning models for peptide–protein interaction prediction",
+    "title": "Improving protein function prediction by learning and integrating representations of protein sequences and function labels",
     "year": "2024",
-    "authors": "Yin Song, Xuenan Mi, Diwakar Shukla",
-    "doi": "10.1039/d3cb00208j",
+    "authors": "Frimpong Boadu, Jianlin Jack Cheng",
+    "doi": "10.1093/bioadv/vbae120",
     "pmid": "",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1039/d3cb00208j",
-    "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/cb/d3cb00208j"
+    "url": "https://doi.org/10.1093/bioadv/vbae120",
+    "pdf_url": null
   },
   {
     "title": "Advances in AI and machine learning for predictive medicine",
@@ -398,5 +388,15 @@
     "source": "OpenAlex",
     "url": "https://doi.org/10.1038/s10038-024-01231-y",
     "pdf_url": "https://www.nature.com/articles/s10038-024-01231-y.pdf"
+  },
+  {
+    "title": "Leveraging machine learning models for peptide–protein interaction prediction",
+    "year": "2024",
+    "authors": "Yin Song, Xuenan Mi, Diwakar Shukla",
+    "doi": "10.1039/d3cb00208j",
+    "pmid": "",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1039/d3cb00208j",
+    "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/cb/d3cb00208j"
   }
 ]

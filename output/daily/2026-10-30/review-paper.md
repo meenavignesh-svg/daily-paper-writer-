@@ -32,13 +32,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/40915561/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Systematic Multi-Target QSAR Benchmarking: Machine Learning Algorithms, Molecular Descriptors, and Validation.**
-- Authors: Alshehade SA, Al Jabal G, Jebril IH
-- Source: PubMed
-- PMID: 42300227
-- Link: https://pubmed.ncbi.nlm.nih.gov/42300227/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Machine Learning for Studying Plant Protein Function and Evolution**
 - Authors: Ankan Das, Dibyendu Seth, Bodhisattya Pal, Nidhi, Sandip Debnath
 - Source: OpenAlex
@@ -197,13 +190,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1093/bioadv/vbae120
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
-**Leveraging machine learning models for peptide–protein interaction prediction**
-- Authors: Yin Song, Xuenan Mi, Diwakar Shukla
-- Source: OpenAlex
-- DOI: 10.1039/d3cb00208j
-- Link: https://doi.org/10.1039/d3cb00208j
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
 **Advances in AI and machine learning for predictive medicine**
 - Authors: Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda
 - Source: OpenAlex
@@ -211,7 +197,21 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1038/s10038-024-01231-y
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Leveraging machine learning models for peptide–protein interaction prediction**
+- Authors: Yin Song, Xuenan Mi, Diwakar Shukla
+- Source: OpenAlex
+- DOI: 10.1039/d3cb00208j
+- Link: https://doi.org/10.1039/d3cb00208j
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 ### 2023
+
+**DeepTraSynergy: drug combinations using multimodal deep learning with transformers.**
+- Authors: Rafiei F, Zeraati H, Abbasi K, Ghasemi JB, Parsaeian M, Masoudi-Nejad A
+- Source: PubMed
+- PMID: 37467066
+- Link: https://pubmed.ncbi.nlm.nih.gov/37467066/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Novel machine learning approaches revolutionize protein knowledge.**
 - Authors: Bordin N, Dallago C, Heinzinger M, Kim S, Littmann M, Rauer C, Steinegger M, Rost B
