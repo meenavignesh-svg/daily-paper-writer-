@@ -25,6 +25,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://pubmed.ncbi.nlm.nih.gov/40915561/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Structural T-Cell Receptor Analysis in the Age of Machine Learning.**
+- Authors: Quast NP, Raybould MIJ, Deane CM
+- Source: PubMed
+- PMID: 42700152
+- Link: https://pubmed.ncbi.nlm.nih.gov/42700152/
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 **Machine Learning for Studying Plant Protein Function and Evolution**
 - Authors: Ankan Das, Dibyendu Seth, Bodhisattya Pal, Nidhi, Sandip Debnath
 - Source: OpenAlex
@@ -81,13 +88,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Source: PubMed
 - PMID: 40380914
 - Link: https://pubmed.ncbi.nlm.nih.gov/40380914/
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
-**Performance of Machine Learning Models in Predicting BRAF Alterations Using Imaging Data in Low-Grade Glioma: A Systematic Review and Meta-Analysis.**
-- Authors: Firouzabadi SR, Tavanaei R, Mohammadi I, Alikhani A, Ansari A, Akhlaghpasand M, Hajikarimloo B, Yong RL
-- Source: PubMed
-- PMID: 39914655
-- Link: https://pubmed.ncbi.nlm.nih.gov/39914655/
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Machine learning driven prediction of drug efficacy in lung cancer: based on protein biomarkers and clinical features.**
@@ -197,6 +197,13 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Link: https://doi.org/10.1093/bioadv/vbae120
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
+**Advances in AI and machine learning for predictive medicine**
+- Authors: Alok K. Sharma, Artem Lysenko, Shangru Jia, Keith A. Boroevich, Tatsuhiko Tsunoda
+- Source: OpenAlex
+- DOI: 10.1038/s10038-024-01231-y
+- Link: https://doi.org/10.1038/s10038-024-01231-y
+- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
+
 **Leveraging machine learning models for peptide–protein interaction prediction**
 - Authors: Yin Song, Xuenan Mi, Diwakar Shukla
 - Source: OpenAlex
@@ -269,13 +276,6 @@ This document compiles 40 recent papers related to the topic. AI drafting was un
 - Source: OpenAlex
 - DOI: 10.21015/vtcs.v10i2.1347
 - Link: https://doi.org/10.21015/vtcs.v10i2.1347
-- Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
-
-**Prediction of Diabetes Empowered With Fused Machine Learning**
-- Authors: Usama Ahmed, Ghassan F. Issa, Muhammad Adnan Khan, Shabib Aftab, Muhammad Farhan Khan, Raed A. Said, Taher M. Ghazal, Munir Ahmad
-- Source: OpenAlex
-- DOI: 10.1109/access.2022.3142097
-- Link: https://doi.org/10.1109/access.2022.3142097
 - Key finding / methods / datasets / limitations: **Extract from original paper after reading.**
 
 **Hom-Complex-Based Machine Learning (HCML) for the Prediction of Protein–Protein Binding Affinity Changes upon Mutation**
